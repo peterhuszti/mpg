@@ -13,6 +13,8 @@ class Player
             goals(_goals),
             matchesPlayed(_matchesPlayed) {}
 
+        void print();
+
     private:
         std::string name;
         int goals;

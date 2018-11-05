@@ -7,6 +7,7 @@ class Team
 {
     public:
         Team(std::string _name): name(_name) {}
+        void print();
 
     private:
         std::string name;
