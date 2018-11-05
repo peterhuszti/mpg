@@ -1,19 +1,18 @@
-Player	Place	Cost	Rate	Variation	Goal	d11	d10	d9	d8	d7	d6	d5	d4	d3	d2	d1	d38	LIG	Club	Next opponent	Winning chance
-Arrizabalaga Kepa	G	17	5,41/11{5,37/31}	0,47{1,03}	0	5	5,5	5	6,5	5	5,5	5	5,5	5	6	5,5			Chelsea	Everton	61,31%
-Hewelt Mateusz	G	1	0	0	0														Everton	Chelsea	38,69%
-Mustafi Shkodran	D	24	5,41/11{5,35/33}	0,90{1,23}	1{4}	6	4	5,5	5,5	5,5	5,5	5,5	7	6,5	4	4,5			Arsenal	Wolverhampton	67,76%
-Dunk Lewis	D	10	4,85/10(5,00/8){4,91/37}	0,84(0,87){1,08}	1{2}	4	6	6,5	5,5	4,5	5	4,5	4		4	4,5			Brighton	Cardiff	74,58%
-Ricardo Pereira	D	12	4,78/9(5,50)	1,23	1	5,5		2,5	6	5,5		3	4	5,5	6	5			Leicester	Burnley	69,49%
-Digne Lucas	D	13	5,22/9(5,25/8){5,17/18}	0,48(0,50){0,53}	0	5	4,5	5,5	6	5	5	5	6			5			Everton	Chelsea	38,69%
-Lindelöf Victor	D	12	5,05/10(5,33/3){5,26/25}	0,76(0,24){0,75}	0	5,5	5,5	5		3	5,5	5,5	5,5	5	4,5	5,5		(4)/(5)	Man United	Man City	26,75%
-Chambers Calum	D	7	4,58/6{4,81/18}	0,45{0,77}	0			4,5			5		5	5	4	4			Fulham	Liverpool	10,30%
-Schürrle André	M	22	5,45/10	1,35	4		3,5	7	6	4,5	5,5	4,5	6,5	8	5	4			Fulham	Liverpool	10,30%
-Silva David	M	37	6,39/9(6,50/5){6,50/19}	0,99(1,14){1,11}	3{11}	8	6,5	7	4,5	6,5		7	5,5	5,5	7			6	Man City	Man United	73,25%
-Milivojevic Luka	M	22	5,14/11{5,64/37}	1,19{1,17}	2{11}	5	7	2,5	6	5,5	6	5	3,5	5	5	6		6	Crystal Palace	Tottenham	17,95%
-Groß Pascal	M	10	4,88/4{5,02/31}	1,52{1,32}	1{6}								3	5,5	7	4			Brighton	Cardiff	74,58%
-Dembélé Mousa	M	16	5,00/10(4,83/3){5,41/32}	0,77(0,24){0,96}	0	5	5	4,5		4,5	6	4	4	6,5	5	5,5		5	Tottenham	Crystal Palace	82,05%
-King Andy	M	2	0,00{5,23/13}	0,00{1,05}	0{3}														Leicester	Burnley	69,49%
-Aubameyang PierreEmerick	F	40	5,59/11{5,69/24}	1,29{1,51}	7{17}	4,5	5,5	7,5	8	5	6,5	4,5	6	6	4	4			Arsenal	Wolverhampton	67,76%
-Mohamed Salah	F	44	5,91/11{6,28/36}	0,95{1,42}	5{30}	5,5	8	6	4,5	5	6	5,5	5	6	7	6,5			Liverpool	Fulham	89,70%
-Wood Chris	F	11	4,32/11{4,72/27}	0,68{1,16}	1{8}	6	4,5	4,5	4,5	4	4	4	4	3/5	3,5	5		4/6	Burnley	Leicester	30,51%
-Izquierdo José	F	5	5,00/5{5,07/30}	0,32{1,07}	0{4}	5	5,5	5	5	4,5											
+Arrizabalaga Kepa	G	17	5.41/11{5.37/31}	0.47{1.03}	0	5	5.5	5	6.5	5	5.5	5	5.5	5	6	5.5			Chelsea	Everton	61.31%
+Hewelt Mateusz	G	1	0	0	0														Everton	Chelsea	38.69%
+Mustafi Shkodran	D	24	5.41/11{5.35/33}	0.90{1.23}	1{4}	6	4	5.5	5.5	5.5	5.5	5.5	7	6.5	4	4.5			Arsenal	Wolverhampton	67.76%
+Dunk Lewis	D	10	4.85/10(5.00/8){4.91/37}	0.84(0.87){1.08}	1{2}	4	6	6.5	5.5	4.5	5	4.5	4		4	4.5			Brighton	Cardiff	74.58%
+Ricardo Pereira	D	12	4.78/9(5.50)	1.23	1	5.5		2.5	6	5.5		3	4	5.5	6	5			Leicester	Burnley	69.49%
+Digne Lucas	D	13	5.22/9(5.25/8){5.17/18}	0.48(0.50){0.53}	0	5	4.5	5.5	6	5	5	5	6			5			Everton	Chelsea	38.69%
+Lindelöf Victor	D	12	5.05/10(5.33/3){5.26/25}	0.76(0.24){0.75}	0	5.5	5.5	5		3	5.5	5.5	5.5	5	4.5	5.5		(4)/(5)	Man United	Man City	26.75%
+Chambers Calum	D	7	4.58/6{4.81/18}	0.45{0.77}	0			4.5			5		5	5	4	4			Fulham	Liverpool	10.30%
+Schürrle André	M	22	5.45/10	1.35	4		3.5	7	6	4.5	5.5	4.5	6.5	8	5	4			Fulham	Liverpool	10.30%
+Silva David	M	37	6.39/9(6.50/5){6.50/19}	0.99(1.14){1.11}	3{11}	8	6.5	7	4.5	6.5		7	5.5	5.5	7			6	Man City	Man United	73.25%
+Milivojevic Luka	M	22	5.14/11{5.64/37}	1.19{1.17}	2{11}	5	7	2.5	6	5.5	6	5	3.5	5	5	6		6	Crystal Palace	Tottenham	17.95%
+Groß Pascal	M	10	4.88/4{5.02/31}	1.52{1.32}	1{6}								3	5.5	7	4			Brighton	Cardiff	74.58%
+Dembélé Mousa	M	16	5.00/10(4.83/3){5.41/32}	0.77(0.24){0.96}	0	5	5	4.5		4.5	6	4	4	6.5	5	5.5		5	Tottenham	Crystal Palace	82.05%
+King Andy	M	2	0.00{5.23/13}	0.00{1.05}	0{3}														Leicester	Burnley	69.49%
+Aubameyang PierreEmerick	F	40	5.59/11{5.69/24}	1.29{1.51}	7{17}	4.5	5.5	7.5	8	5	6.5	4.5	6	6	4	4			Arsenal	Wolverhampton	67.76%
+Mohamed Salah	F	44	5.91/11{6.28/36}	0.95{1.42}	5{30}	5.5	8	6	4.5	5	6	5.5	5	6	7	6.5			Liverpool	Fulham	89.70%
+Wood Chris	F	11	4.32/11{4.72/27}	0.68{1.16}	1{8}	6	4.5	4.5	4.5	4	4	4	4	3/5	3.5	5		4/6	Burnley	Leicester	30.51%
+Izquierdo José	F	5	5.00/5{5.07/30}	0.32{1.07}	0{4}	5	5.5	5	5	4.5											

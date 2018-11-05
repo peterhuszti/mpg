@@ -7,6 +7,9 @@ class Team
 {
     public:
         Team(std::string _name): name(_name) {}
+
+        void addPlayer(std::string _name, int _goals, int _matchesPlayed);
+
         void print();
 
     private:
