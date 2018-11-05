@@ -5,22 +5,36 @@
 #include <map>
 #include <string>
 
-#define M 11.
-
 class Player
 {
     public:
+        static double M;
+
         Player(std::string _name, int _goals, int _matchesPlayed):
             name(_name),
             goals(_goals),
             matchesPlayed(_matchesPlayed) {
 
-            avgGoals = (double)goals / matchesPlayed;
-            play_p = matchesPlayed / M;
-            goal_p = avgGoals * play_p;
+            if(matchesPlayed==0) {
+                avgGoals = 0;
+            } else {
+                avgGoals = (double)goals / matchesPlayed;
             }
+            play_p = matchesPlayed / M;
+            if(play_p == 0) {
+                play_p = 0.001;
+            }
+            goal_p = avgGoals * play_p;
+            if(goal_p == 0) {
+                goal_p = 0.001;
+            }
+        }
 
         void updateData();
+
+        std::string getName() { return name; }
+        double getPlay_p() { return play_p; }
+        double getGoal_p() const { return goal_p; }
 
         void print();
 

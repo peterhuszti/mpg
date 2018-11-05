@@ -1,6 +1,8 @@
 #include "Player.h"
 #include <iostream>
 
+double Player::M = 11.;
+
 void Player::print() {
     std::cout << name
               << "\n   goals: " << goals

@@ -10,9 +10,14 @@ class Team
 
         void addPlayer(std::string _name, int _goals, int _matchesPlayed);
 
+        std::vector<double> calcGoal_p();
+
         void print();
 
     private:
+        std::vector<Player> sortPlayers();
+        std::vector<std::vector<double> > p;
+
         std::string name;
         std::vector<Player> players;
         std::map<int, double> goalDistr_p;
