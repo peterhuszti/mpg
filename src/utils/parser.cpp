@@ -35,8 +35,10 @@ void parseTeam(Team &ppa) {
                 found = tmp.find("{");
                 if (found!=std::string::npos) {
                     tmp.erase(tmp.begin()+found, tmp.end());
+                    matchesPlayed = atoi(tmp.c_str());
+                } else {
+                    matchesPlayed = 0;
                 }
-                matchesPlayed = atoi(tmp.c_str());
             }
             else if(i==5) {
                 goals = atoi(tmp.c_str());

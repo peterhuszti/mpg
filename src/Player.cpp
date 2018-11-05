@@ -2,5 +2,11 @@
 #include <iostream>
 
 void Player::print() {
-    std::cout << name << " goals: " << goals << " matchesPlayed: " << matchesPlayed << std::endl;
+    std::cout << name
+              << "\n   goals: " << goals
+              << "\n   matchesPlayed: " << matchesPlayed
+              << "\n   avgGoals: " << avgGoals
+              << "\n   playing probability: " << play_p
+              << "\n   goal probability: " << goal_p
+              << std::endl;
 }
