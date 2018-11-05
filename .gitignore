@@ -1,4 +1,6 @@
 *cbp
+obj/*
+mpg.depend
 
 # Windows thumbnail cache files
 Thumbs.db
