@@ -14,10 +14,10 @@ std::vector<Player> Team::sortPlayers() {
     return sortedPlayers;
 }
 
-std::vector<double> Team::calcGoal_p() {
+void Team::calcGoal_p() {
     double res = 1;
-    std::vector<double> res_v;
     int n = players.size();
+	std::vector<std::vector<double> > p;
 
     std::vector<Player> sortedPlayers = sortPlayers();
     p.resize(n);
@@ -45,10 +45,8 @@ std::vector<double> Team::calcGoal_p() {
 //    }
 
     for(int j=0; j<n; ++j) {
-        res_v.push_back(p[j][n-1]);
+        goal_p.push_back(p[j][n-1]);
     }
-
-    return res_v;
 }
 
 void Team::print() {

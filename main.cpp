@@ -1,5 +1,6 @@
 #include <iostream>
 #include "include/Team.h"
+#include "include/Match.h"
 #include "include/utils/parser.h"
 
 int main()
@@ -17,15 +18,17 @@ int main()
 		// t.print();
 	}
 	
-	for(auto t: teams) {
-		double sum = 0;
-		std::vector<double> prob = t.calcGoal_p();
-		for(int i=0; i<t.getPlayerCount(); ++i)  {
-			sum += prob[i];
-			// std::cout << i << " different player scores: " << prob[i] <<  " " << std::endl;
+	for(int i=0; i<teams.size(); ++i) {
+		// double sum = 0;
+		teams[i].calcGoal_p();
+		std::vector<double> goal_p = teams[i].getGoal_p();
+		for(int i=0; i<teams[i].getPlayerCount(); ++i)  {
+			// sum += goal_p[i];
+			// std::cout << i << " different player scores: " << goal_p[i] <<  " " << std::endl;
 		}
-		std::cout << "sum: " << sum << std::endl;
+		// std::cout << "sum: " << sum << std::endl;
 	}
+	Match(teams[0], teams[1]);
 	
     return 0;
 }

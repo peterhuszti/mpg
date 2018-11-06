@@ -10,15 +10,16 @@ class Team
 
 		std::string getName() { return name; }
 		int getPlayerCount() { return players.size(); }
+		std::vector<double> getGoal_p() { return goal_p; }
         void addPlayer(std::string _name, int _goals, int _matchesPlayed);
 
-        std::vector<double> calcGoal_p();
+        void calcGoal_p();
 
         void print();
 
     private:
-        std::vector<Player> sortPlayers();
-        std::vector<std::vector<double> > p;
+        std::vector<Player> sortPlayers();        
+		std::vector<double> goal_p;
 
         std::string name;
         std::vector<Player> players;
