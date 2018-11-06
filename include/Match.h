@@ -9,10 +9,12 @@ class Match
         Match(Team a, Team b): teamA(a), teamB(b) {
 			home_p = away_p = draw_p = 0;
 			calcWin_p();
+			calcResult_p();
 		}
 		
 		void calcWin_p();
-		void calcResult();
+		void calcResult_p();
+		void search3possibleResult();
 		
 		double getHome_p() {return home_p; }
 		double getAway_p() {return away_p; }
