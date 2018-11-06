@@ -1,13 +1,14 @@
 #ifndef TEAM_H
 #define TEAM_H
 
-#include <Player.h>
+#include "Player.h"
 
 class Team
 {
     public:
         Team(std::string _name): name(_name) {}
 
+		std::string getName() { return name; }
         void addPlayer(std::string _name, int _goals, int _matchesPlayed);
 
         std::vector<double> calcGoal_p();

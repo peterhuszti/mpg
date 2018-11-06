@@ -1,15 +1,20 @@
-#include <Team.h>
-#include <Player.h>
-#include <utils/parser.h>
+#include "../../include/Team.h"
+#include "../../include/Player.h"
+#include "../../include/utils/parser.h"
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <cstdlib>
 
 #define PPA "input/ppa.txt"
+#define ALA "input/ala.txt"
 
-void parseTeam(Team &ppa) {
-    std::ifstream input(PPA);
+void parseTeam(Team &team) {
+	std::string file;
+	if(team.getName() == "PPA") file = PPA;
+	else file = ALA;
+	
+    std::ifstream input(file);
 
     std::string line;
 
@@ -57,7 +62,7 @@ void parseTeam(Team &ppa) {
 
             i++;
         }
-        ppa.addPlayer(name, goals, matchesPlayed);
+        team.addPlayer(name, goals, matchesPlayed);
     }
 
 

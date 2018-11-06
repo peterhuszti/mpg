@@ -1,0 +1,20 @@
+Lloris Hugo	G	19	6.57/7(6.75/4){5.61/33}	0.49(0.43){1.07}	0	7	6	7	7					6	Tottenham	Crystal Palace	82.05%
+Pickford Jordan	G	15	5.45/11{5.29/38}	1.36{1.39}	0	5	8	7.5	5	5.5	5	2.5	5.5	7	Everton	Chelsea	38.69%
+Rüdiger Antonio	D	19	5.77/11{5.47/29}	0.58{1.07}	1{3}	5	6	6	7	5.5	5.5	5.5	6	6	Chelsea	Everton	61.31%
+Laporte Aymeric	D	22	5.73/11{5.79/28}	0.45{0.67}	1	5.5	5.5	6	6	6	6	6	4.5		Man City	Man United	73.25%
+Smalling Chris	D	16	4.94/9{5.52/32}	0.90	1{5}	5.5	4.5	4.5	4.5	4	5	7	5.5	5/6	Man United	Man City	26.75%
+Otamendi Nicolás	D	15	6.17/3{5.48/26}	0.24{1.10}	0{2}					6	6.5	6		7/4	Man City	Man United	73.25%
+Kompany Vincent	D	9	5.33/6{5.50/20}	0.47{0.74}	0{1}	-5	-5	6					-5	5/5	Man City	Man United	73.25%
+Sánchez Davinson	D	8	5.31/8(5.60/5){5.34/31}	0.75(0.37){0.80}	0	-5	5.5	5.5	6	6			3.5	6	Tottenham	Crystal Palace	82.05%
+Mahrez Riyad	M	22	5.45/10{5.44/35}	1.35{1.46}	4{14}		6.5	8	3.5	-5	(7.5)	-5	4.5		Man City	Man United	73.25%
+Bernardo Silva	M	30	5.82/11{5.72/36}	0.94{1.02}	3{7}	7	5.5	6	5	5.5	8	6	(4.5)	(5)/5	Man City	Man United	73.25%
+Xhaka Granit	M	19	5.36/11{5.61/38}	1.15{0.99}	2{3}	7	5	4.5	5.5	6	5.5	7	6		Arsenal	Wolverhampton	67.76%
+Gueye Idrissa	M	19	5.80/10(5.86/7){5.63/32}	0.95(1.09){1.02}	0{2}	7	5	7	5.5	7	5.5	4		6	Everton	Chelsea	38.69%
+Lingard Jesse	M	18	4.71/7(5.00/2){5.29/31}	0.45{1.11}	0{8}	-5	-5				4.5	4.5	5.5	4/5	Man United	Man City	26.75%
+Lanzini Manuel	M	5	0.00{5.33/21}	0.00{1.55}	0{4}									8	West Ham	Huddersfield	76.18%
+Richarlison	F	19	5.83/9{4.74/36}	1.25(0.94){1.23}	6{7}	7.5	6	5	6	6	4.5				Everton	Chelsea	38.69%
+Sané Leroy	F	24	5.78/9(7.00){5.80/30}	1.00{1.10}	3{6}	7		7	-5	6	6	7		6/6	Man City	Man United	73.25%
+Sánchez Alexis	F	19	5.19/8(5.50){5.63/31}	0.75{1.05}	1{9}	5.5		-4	(6.5)		5	5	6	7	Man United	Man City	26.75%
+Shaqiri Xherdan	F	12	5.14/7(5.67/3){5.06/33}	0.58(0.47){1.06}	1{7}	-5	-6	6		-5	4.5		(4.5)		Liverpool	Fulham	89.70%
+Ayoze Pérez	F	13	4.77/11{5.20/28}	0.62{0.96}	1{8}	-6	4.5	5	6	4	4.5	4.5	4.5	5	Newcastle	Bournemouth	38.01%
+Son Heung-Min	F	27	4.92/6(4.50){5.50/33}	0.34{1.45}	0{10}	(4.5)			5	5.5	5	(4.5)		-4	Tottenham	Crystal Palace	82.05%
