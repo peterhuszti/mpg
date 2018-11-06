@@ -1,6 +1,7 @@
 *cbp
 obj/*
 mpg.depend
+a.out
 
 # Windows thumbnail cache files
 Thumbs.db

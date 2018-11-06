@@ -46,11 +46,14 @@ void Match::calcResult_p() {
 	result_p.resize(n);
 	for(int i=0; i<n; ++i) result_p[i].resize(n);
 	
+	double sum = 0;
 	for(int i=0; i<n; ++i) {
 		for(int j=0; j<n; ++j) {
 			result_p[i][j] = aGoal_p[i] * bGoal_p[j];
+			sum += result_p[i][j];
 		}
 	}
+	std::cout << sum << std::endl;
 	
 	double max = 0;
 	int indexI, indexJ;
@@ -65,5 +68,13 @@ void Match::calcResult_p() {
 		}
 		std::cout << std::endl;
 	}
-	std::cout << max << " " << indexI << " " << indexJ << std::endl;
+	// std::cout << max << " " << indexI << " " << indexJ << std::endl;
+	
+	for(int i=0; i<n; ++i) {
+		for(int j=0; j<n; ++j) {
+			if(result_p[i][j] > 0.05) {
+				std::cout << result_p[i][j] << " " << i << " " << j << std::endl;
+			}				
+		}
+	}
 }

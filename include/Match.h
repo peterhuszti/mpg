@@ -10,11 +10,12 @@ class Match
 			home_p = away_p = draw_p = 0;
 			calcWin_p();
 			calcResult_p();
+			searchMostProbableResults();
 		}
 		
 		void calcWin_p();
 		void calcResult_p();
-		void search3possibleResult();
+		void searchMostProbableResults();
 		
 		double getHome_p() {return home_p; }
 		double getAway_p() {return away_p; }
