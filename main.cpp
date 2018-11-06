@@ -4,28 +4,28 @@
 
 int main()
 {
-    Team ppa("PPA");
-    parseTeam(ppa);
-//    ppa.print();
-	Team ala("ALA");
-	parseTeam(ala);
-	ala.print();
-
-	double sum = 0;
-	std::vector<double> prob = ppa.calcGoal_p();
-    for(int i=0; i<18; ++i)  {
-        sum += prob[i];
-        std::cout << i << " different player scores: " << prob[i] <<  " " << std::endl;
-    }
-    std::cout << "sum: " << sum;
+	std::vector<std::string> teamNames = {"ppa", "ala"};
+	std::vector<Team> teams;
 	
-	sum = 0;
-	prob = ala.calcGoal_p();
-    for(int i=0; i<18; ++i)  {
-        sum += prob[i];
-        std::cout << i << " different player scores: " << prob[i] <<  " " << std::endl;
-    }
-    std::cout << "sum: " << sum;
+	for(auto t: teamNames) {
+		Team temp(t);
+		teams.push_back(std::move(temp));
+	}
+	
+	for(int i=0; i<teams.size(); ++i) {
+		parseTeam(teams[i]);
+		// t.print();
+	}
+	
+	for(auto t: teams) {
+		double sum = 0;
+		std::vector<double> prob = t.calcGoal_p();
+		for(int i=0; i<t.getPlayerCount(); ++i)  {
+			sum += prob[i];
+			// std::cout << i << " different player scores: " << prob[i] <<  " " << std::endl;
+		}
+		std::cout << "sum: " << sum << std::endl;
+	}
 	
     return 0;
 }

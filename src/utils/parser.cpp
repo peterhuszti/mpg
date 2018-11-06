@@ -6,13 +6,9 @@
 #include <sstream>
 #include <cstdlib>
 
-#define PPA "input/ppa.txt"
-#define ALA "input/ala.txt"
-
 void parseTeam(Team &team) {
-	std::string file;
-	if(team.getName() == "PPA") file = PPA;
-	else file = ALA;
+	std::string prefix = "input/";
+	std::string file = prefix + team.getName() + ".txt";
 	
     std::ifstream input(file);
 

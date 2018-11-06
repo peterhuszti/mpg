@@ -9,6 +9,7 @@ class Team
         Team(std::string _name): name(_name) {}
 
 		std::string getName() { return name; }
+		int getPlayerCount() { return players.size(); }
         void addPlayer(std::string _name, int _goals, int _matchesPlayed);
 
         std::vector<double> calcGoal_p();
