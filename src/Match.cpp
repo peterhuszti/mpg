@@ -1,5 +1,6 @@
 #include "../include/Match.h"
 #include <iostream>
+#include <algorithm>
 
 #define MIN(a,b) ((a) < (b) ? (a) : (b))
 
@@ -33,8 +34,8 @@ void Match::calcWin_p() {
 	
 	std::cout << teamA.getName() << " win: " << home_p << "   "
 	<< teamB.getName() << " win: " << away_p << "   draw: " 
-	<< draw_p << std::endl;
-	std::cout << home_p + away_p + draw_p << std::endl;
+	<< draw_p << std::endl << std::endl;
+	// std::cout << home_p + away_p + draw_p << std::endl;
 }
 
 void Match::calcResult_p() {
@@ -46,35 +47,53 @@ void Match::calcResult_p() {
 	result_p.resize(n);
 	for(int i=0; i<n; ++i) result_p[i].resize(n);
 	
-	double sum = 0;
+	// double sum = 0;
 	for(int i=0; i<n; ++i) {
 		for(int j=0; j<n; ++j) {
 			result_p[i][j] = aGoal_p[i] * bGoal_p[j];
-			sum += result_p[i][j];
+			// sum += result_p[i][j];
 		}
 	}
-	std::cout << sum << std::endl;
-	
-	double max = 0;
-	int indexI, indexJ;
-	for(int i=0; i<n; ++i) {
-		for(int j=0; j<n; ++j) {
-			if(result_p[i][j] > max) { 
-				max = result_p[i][j];
-				indexI = i;
-				indexJ = j;
-			}
-			std::cout << result_p[i][j] << " ";
-		}
-		std::cout << std::endl;
-	}
+	// std::cout << sum << std::endl;
+}
+
+void Match::searchMostProbableResults() {
+	int n = MIN(teamA.getPlayerCount(), teamA.getPlayerCount());
+		// double max = 0;
+	// int indexI, indexJ;
+	// for(int i=0; i<n; ++i) {
+		// for(int j=0; j<n; ++j) {
+			// if(result_p[i][j] > max) { 
+				// max = result_p[i][j];
+				// indexI = i;
+				// indexJ = j;
+			// }
+			// std::cout << result_p[i][j] << " ";
+		// }
+		// std::cout << std::endl;
+	// }
 	// std::cout << max << " " << indexI << " " << indexJ << std::endl;
+	struct Result {
+		Result(double _p, int _h, int _a): p(_p), h(_h), a(_a) {}
+		double p;
+		int h,a;
+	};
 	
+	std::vector<Result> results;
+	std::cout << "Most probable results: " << std::endl;
 	for(int i=0; i<n; ++i) {
 		for(int j=0; j<n; ++j) {
 			if(result_p[i][j] > 0.05) {
-				std::cout << result_p[i][j] << " " << i << " " << j << std::endl;
+				results.push_back(Result(result_p[i][j],i,j));
 			}				
 		}
+	}
+	
+	std::sort(results.begin(), results.end(), [](const Result& a, const Result& b){
+		return a.p > b.p;
+	});
+	
+	for(int i=0; i<results.size() && i<5; ++i) {
+		std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
 	}
 }
