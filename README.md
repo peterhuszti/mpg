@@ -15,8 +15,20 @@
 ### Calculations (teams):
 - how many different players will score: given that each player has a goal scoring probability calculated, 
 we can determine how many of them will score at the same time, 
-i.e. what is the probability that exactly N of them will score
-- algorithm used: // TODO copy link of article
+i.e. what is the probability that exactly N of them will score \
+algorithm used: \
+P in R^{n x n}, where n is the number of players in the team \
+P_{0,1} := 1 - s_1 \
+P_{1,1} := s_1 \
+for k=1..n { \
+&nbsp;&nbsp;&nbsp;&nbsp; P_{0,k+1} := P_{0,k} * (1 - s_{k+1}) \
+&nbsp;&nbsp;&nbsp;&nbsp; P_{k+1,k+1} := P_{k,k} * s_{k+1} \
+&nbsp;&nbsp;&nbsp;&nbsp; j=1..k { \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P_{j,k+1} := P_{j,k} * (1 - s_{k+1}) + P_{j-1,k} * s_{k+1} \
+&nbsp;&nbsp;&nbsp;&nbsp; } \
+} \
+p := P_{i,n}, i=1..n \
+(source: http://www.dtic.mil/dtic/tr/fulltext/u2/a283679.pdf)
 - result: p in R^n, where p_i is the probability of exactly i player will score, and n is the number of players in the team
 
 ### Calculations (match):
