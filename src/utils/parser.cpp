@@ -17,6 +17,8 @@ void parseTeam(Team &team) {
     std::string name;
     int goals;
     int matchesPlayed;
+	int starter;
+	int position;
 
     while(getline(input, line)) {
         std::stringstream ss(line);
@@ -25,11 +27,20 @@ void parseTeam(Team &team) {
         int i = 0;
 
         while(getline(ss, tmp, '\t')) {
-            if(i==0) {
-               std::cout << tmp << " ";
+			if(i==0) {
+				starter = atoi(tmp.c_str());
+			}
+            else if(i==1) {
+               // std::cout << tmp << " ";
                 name = tmp;
             }
-            else if(i==3) {
+			else if(i==2) {
+				if(tmp == "G") position = 0;
+				else if(tmp == "D") position = 1;
+				else if(tmp == "M") position = 2;
+				else if(tmp == "F") position = 3;
+			}
+            else if(i==4) {
 //                std::cout << tmp << " ";
                 int found = tmp.find("/");
                 if (found!=std::string::npos) {
@@ -51,14 +62,14 @@ void parseTeam(Team &team) {
                 }
 //                std::cout << tmp << " ";
             }
-            else if(i==5) {
+            else if(i==6) {
 //                std::cout << tmp << std::endl;
                 goals = atoi(tmp.c_str());
             }
 
             i++;
         }
-        team.addPlayer(name, goals, matchesPlayed);
+        team.addPlayer(name, goals, matchesPlayed, starter, position);
     }
 
 

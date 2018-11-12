@@ -2,8 +2,8 @@
 #include <iostream>
 #include <algorithm>
 
-void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed) {
-    players.push_back(Player(_name, _goals, _matchesPlayed));
+void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position) {
+    players.push_back(Player(_name, _goals, _matchesPlayed, _starter, _position));
 }
 
 std::vector<Player> Team::sortPlayers() {
@@ -14,7 +14,50 @@ std::vector<Player> Team::sortPlayers() {
     return sortedPlayers;
 }
 
+void Team::calcPlay_p() {	
+	std::vector<std::vector<std::vector<Player> > > grouppedPlayers(4);
+	// [position][starter][Player]
+	for(int i=0; i<grouppedPlayers.size(); ++i) {
+		grouppedPlayers[i].resize(2);
+	}
+	
+	std::for_each(players.begin(), players.end(), [&grouppedPlayers](const Player& p){
+		int tmp = p.getStarter();
+		if(tmp==0) {
+			grouppedPlayers[p.getPosition()][tmp].push_back(p);
+		} else {
+			grouppedPlayers[p.getPosition()][1].push_back(p);
+		}
+	});
+		
+	for(int i=0; i<grouppedPlayers.size(); ++i) {
+		std::sort(grouppedPlayers[i][1].begin(), grouppedPlayers[i][1].end(), [](const Player& a, const Player& b){
+                        return a.getStarter() < b.getStarter();
+                     });		
+	}
+	
+	for(int i=0; i<grouppedPlayers.size(); ++i) { // for all positions
+		for(int j=0; j<grouppedPlayers[i][1].size(); ++j) { // for all non-starters
+			double beforeStart = 1;
+			double beforeSub = 1;
+			for(int k=0; k<grouppedPlayers[i][0].size(); ++k) { // for all starter
+				for(int m=0; m<k; ++m) { // for all starter before this starter
+					beforeStart *= grouppedPlayers[i][0][m].getPlay_p();
+				}
+				beforeStart *= (1 - grouppedPlayers[i][0][k].getPlay_p());
+			}
+			for(int k=0; k<j; ++k) { // for all subs before this sub
+				beforeSub *= (1 - grouppedPlayers[i][1][k].getPlay_p());
+			}
+			grouppedPlayers[i][1][j].setPlay_p(grouppedPlayers[i][1][j].getPlay_p() * beforeStart * beforeSub);
+		}
+	}
+	
+}
+
 void Team::calcGoal_p() {
+	calcPlay_p();
+	
     double res = 1;
     int n = players.size();
 	std::vector<std::vector<double> > p;
