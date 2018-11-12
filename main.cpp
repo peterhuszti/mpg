@@ -3,9 +3,17 @@
 #include "include/Match.h"
 #include "include/utils/parser.h"
 
+Team findTeam(const std::vector<Team>& teams, std::string name) {
+	for(auto t: teams) {
+		if(t.getName() == name) {
+			return t;
+		}
+	}
+}
+
 int main()
 {
-	std::vector<std::string> teamNames = {"ppa", "ala"};
+	std::vector<std::string> teamNames = {"ppa", "ala", "zhu", "lit", "pcl", "bkv"};
 	std::vector<Team> teams;
 	
 	for(auto t: teamNames) {
@@ -15,7 +23,7 @@ int main()
 	
 	for(int i=0; i<teams.size(); ++i) {
 		parseTeam(teams[i]);
-		// t.print();
+		// teams[i].print();
 	}
 	
 	for(int i=0; i<teams.size(); ++i) {
@@ -28,7 +36,9 @@ int main()
 		}
 		// std::cout << "sum: " << sum << std::endl;
 	}
-	Match(teams[0], teams[1]);
+	Match(findTeam(teams,"ppa"), findTeam(teams,"ala"));
+	Match(findTeam(teams,"zhu"), findTeam(teams,"lit"));
+	Match(findTeam(teams,"pcl"), findTeam(teams,"bkv"));	
 	
     return 0;
 }

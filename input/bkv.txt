@@ -1,0 +1,18 @@
+Rui Patrício	G	16	5.55/11	0.84	0	5	4.5	4.5	6	7	6	6	6.5		Wolverhampton	Arsenal	32.24%
+Foster Ben	G	18	5.50/11{5.14/38}	0.90{0.96}	0	5	8	6	5	4.5	5	5	5		Watford	Southampton	63.61%
+Shaw Luke	D	13	4.85/10(4.67/6){5.17/21}	0.81(0.37){0.79}	1	5	5	4.5	4	5	4.5		6		Man United	Man City	26.75%
+Mendy Benjamin	D	17	5.88/8(5.75/4){5.64/11}	0.82(0.56){0.80}	0	6	5	6.5	5.5				5		Man City	Man United	73.25%
+van Dijk Virgil	D	26	5.77/11{5.60/31}	0.62{0.80}	0	7	6	6	4.5	5.5	6	5	5.5		Liverpool	Fulham	91.64%
+Alexander-Arnold Trent	D	15	5.33/9(4.75/2){5.52/25}	0.58(0.25){1.04}	0{1}	5	4.5			5	6	6	4.5		Liverpool	Fulham	91.64%
+Lichtsteiner Stephan	D	8	4.50/3	0.41	0		(5)	4.5							Arsenal	Wolverhampton	67.76%
+Sokratis	D	8	4.42/6	0.53	0						4.5	5	4		Arsenal	Wolverhampton	67.76%
+Pereyra Roberto	M	23	5.55/11{5.11/37}	1.54{1.22}	5{9}	3.5	7.5	7	3.5	4.5	5	4.5	4.5	(5)	Watford	Southampton	63.61%
+Pogba Paul	M	30	5.00/11{5.56/34}	1.02{1.19}	3{7}	5	6	5	6.5	4	5	5	4	8	Man United	Man City	26.75%
+Gündogan Ilkay	M	13	6.08/6{5.85/30}	0.98{1.07}	1{5}						8	(5.5)	(5)	(5)/6	Man City	Man United	73.25%
+Matic Nemanja	M	20	5.25/8(5.30/5){5.73/33}	0.35(0.24){0.82}	0{1}	5.5	5.5	5.5	5	5		5.5	5.5	5/6	Man United	Man City	26.75%
+Keita Naby	M	9	5.19/8	0.43	0				(5)	(5)	(4.5)	5.5	(5)		Liverpool	Fulham	91.64%
+Andreas Pereira	M	6	4.88/4{4.64/18}	0.89{0.70}	0			(5)			(5)				Man United	Man City	26.75%
+Agüero Sergio	F	45	6.09/11{6.11/28}	1.38{1.47}	7{20}	8	4.5	6	4	6.5	7	7	5	(4)	Man City	Man United	73.25%
+Zaha Wilfried	F	23	5.20/10(5.14/7){5.47/34}	0.84(0.95){1.14}	3{10}	5	6	4.5	4	4.5	5	7			Crystal Palace	Tottenham	17.95%
+Willian	F	34	5.73/11{5.67/36}	0.89{1.11}	2{8}	5.5	7	6	6	4.5	6.5	(7)	5.5	4	Chelsea	Everton	61.31%
+Roberto Firmino	F	26	5.00/11{5.57/37}	0.74{1.33}	2{14}	4	4.5	(4.5)	4	5.5	4.5	6	5		Liverpool	Fulham	91.64%

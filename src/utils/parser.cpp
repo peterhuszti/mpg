@@ -26,7 +26,7 @@ void parseTeam(Team &team) {
 
         while(getline(ss, tmp, '\t')) {
             if(i==0) {
-//                std::cout << tmp << " ";
+               std::cout << tmp << " ";
                 name = tmp;
             }
             else if(i==3) {

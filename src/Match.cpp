@@ -96,4 +96,5 @@ void Match::searchMostProbableResults() {
 	for(int i=0; i<results.size() && i<5; ++i) {
 		std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
 	}
+	std::cout << std::endl << std::endl;
 }
