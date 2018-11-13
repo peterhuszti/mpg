@@ -1,6 +1,6 @@
 # MPG prediction software
 
-## V0 - current version
+## V0
 
 ### Data: 
 - goals scored by each player: p_g
@@ -42,13 +42,14 @@ and where n and m is the number of players of the home and away team, respective
 E_{i,j} := p_{i,h) * p_{j,a}
 - searching most probable results: listing the 5 most probable exact outcomes: getting the 5 largest probabilities from E
 
-## V1 - work in progress
+## V1 - Current version
 
 ### Extra data:
 - starting lineups
 
 ### Extra calculations: 
 - probability of goal scoring is adjusted by the chance he will actually play in the fantasy team
+- // TODO: document algorithm
 
 ## V2 - planned
 
