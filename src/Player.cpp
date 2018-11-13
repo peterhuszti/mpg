@@ -1,7 +1,7 @@
 #include "../include/Player.h"
 #include <iostream>
 
-double Player::M = 11.;
+double Player::M = 12.;
 
 void Player::print() {
     std::cout << name

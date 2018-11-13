@@ -37,26 +37,44 @@ void Team::calcPlay_p() {
 	}
 	
 	for(int i=0; i<grouppedPlayers.size(); ++i) { // for all positions
+		std::vector<double> beforeStart(grouppedPlayers[i][0].size(), 1);
+		for(int k=0; k<grouppedPlayers[i][0].size(); ++k) { // for all starter
+			for(int m=0; m<k; ++m) { // for all starter before this starter
+				beforeStart[k] *= grouppedPlayers[i][0][m].getPlay_p();
+			}
+			beforeStart[k] *= (1 - grouppedPlayers[i][0][k].getPlay_p());
+		}
+	
 		for(int j=0; j<grouppedPlayers[i][1].size(); ++j) { // for all non-starters
-			double beforeStart = 1;
-			double beforeSub = 1;
-			for(int k=0; k<grouppedPlayers[i][0].size(); ++k) { // for all starter
-				for(int m=0; m<k; ++m) { // for all starter before this starter
-					beforeStart *= grouppedPlayers[i][0][m].getPlay_p();
-				}
-				beforeStart *= (1 - grouppedPlayers[i][0][k].getPlay_p());
-			}
+			std::vector<double> beforeSub(grouppedPlayers[i][1].size(), 1);
 			for(int k=0; k<j; ++k) { // for all subs before this sub
-				beforeSub *= (1 - grouppedPlayers[i][1][k].getPlay_p());
+				beforeSub[k] *= (1 - grouppedPlayers[i][1][k].getPlay_p());
 			}
-			grouppedPlayers[i][1][j].setPlay_p(grouppedPlayers[i][1][j].getPlay_p() * beforeStart * beforeSub);
+			
+			double sum = 0;
+			for(int k=0; k<beforeStart.size(); ++k) {
+				sum += beforeStart[k] * beforeSub[j];
+			}
+			
+			grouppedPlayers[i][1][j].setPlay_p(grouppedPlayers[i][1][j].getPlay_p() * sum);
 		}
 	}
-	
+	players.clear();
+	for(int i=0; i<grouppedPlayers.size(); ++i) {
+		for(int j=0; j<grouppedPlayers[i].size(); ++j) {
+			for(int k=0; k<grouppedPlayers[i][j].size(); ++k) {
+				players.push_back(grouppedPlayers[i][j][k]);
+			}
+		}
+	}
 }
 
 void Team::calcGoal_p() {
 	calcPlay_p();
+	
+	for(int i=0; i<players.size(); ++i) {
+		players[i].recalcGoal_p();
+	}
 	
     double res = 1;
     int n = players.size();

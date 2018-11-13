@@ -14,7 +14,7 @@ Team findTeam(const std::vector<Team>& teams, std::string name) {
 int main()
 {
 	// std::vector<std::string> teamNames = {"ppa", "ala", "zhu", "lit", "pcl", "bkv"};
-	std::vector<std::string> teamNames = {"ppa"};
+	std::vector<std::string> teamNames = {"ppa", "lit"};
 	std::vector<Team> teams;
 	
 	for(auto t: teamNames) {
@@ -24,12 +24,13 @@ int main()
 	
 	for(int i=0; i<teams.size(); ++i) {
 		parseTeam(teams[i]);
-		teams[i].print();
+		// teams[i].print();
 	}
 	
 	for(int i=0; i<teams.size(); ++i) {
 		// double sum = 0;
 		teams[i].calcGoal_p();
+		teams[i].print();
 		std::vector<double> goal_p = teams[i].getGoal_p();
 		for(int i=0; i<teams[i].getPlayerCount(); ++i)  {
 			// sum += goal_p[i];
@@ -37,7 +38,7 @@ int main()
 		}
 		// std::cout << "sum: " << sum << std::endl;
 	}
-	// Match(findTeam(teams,"ppa"), findTeam(teams,"ala"));
+	Match(findTeam(teams,"ppa"), findTeam(teams,"lit"));
 	// Match(findTeam(teams,"zhu"), findTeam(teams,"lit"));
 	// Match(findTeam(teams,"pcl"), findTeam(teams,"bkv"));
 	

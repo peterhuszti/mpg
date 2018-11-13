@@ -38,6 +38,8 @@ class Player
         double getGoal_p() const { return goal_p; }
 		int getPosition() const { return position; }
 		int getStarter() const { return starter; }
+		
+		void recalcGoal_p() { goal_p = avgGoals * play_p; }
 
         void print();
 
