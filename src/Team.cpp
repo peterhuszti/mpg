@@ -70,11 +70,11 @@ void Team::calcPlay_p() {
 }
 
 void Team::calcGoal_p() {
-	calcPlay_p();
+	// calcPlay_p();
 	
-	for(int i=0; i<players.size(); ++i) {
-		players[i].recalcGoal_p();
-	}
+	// for(int i=0; i<players.size(); ++i) {
+		// players[i].recalcGoal_p();
+	// }
 	
     double res = 1;
     int n = players.size();
