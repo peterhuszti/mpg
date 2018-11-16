@@ -63,25 +63,26 @@ for i=1..4 // for all positions \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = sum + beforeStart_k * beforeSub_j \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k_{p,G_{i,2,j}} = k_{p,G_{i,2,j}} * sum \
 
-## V2 - planned
+## V2 - work in progress
 
 ### Extra data:
 - average ratings for each player
+- variation for each player
+
+### Extra calculations:
+- average rating of each teams defenders, midfielders and strikers
+- probability of each player scores a virtual goal (MPG algorithm)
+
+## Future plans
+
+### Extra data:
+- for all player his ratings at every match
 - tactical substitutions
 
 ### Extra calculations: 
 - probability of the player actually playing in the fantasy team is adjusted by the chances of tactical substitutions
+- substitutes can play other positions as well, not just their main one
+- chances for Rotaldos, possibility of an own goal
+- how bonuses affect the outcomes?
 
-## V3 - planned
 
-### Extra calculations:
-- average rating of each teams defenders, midfielders and strikers
-- probability of each player scores a virtual goal
-
-## V4 - planned
-
-### Extra data:
-- for all player his ratings at every match
-
-### Extra calculations:
-- instead of using average ratings, we can predict the next rating with a stochastic method
