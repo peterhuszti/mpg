@@ -52,36 +52,37 @@ E_{i,j} := p_{i,h) * p_{j,a}
 Group players into G^{4 x 2 x n}, criteria: position, starter or not, players \
 for i=1..4 // for all positions \
 &nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(G_{i,1}) // for all starters \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for m=1..k // for all starter before this player
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = k_{p,G_{i,1,m}}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = beforeStart_k * (1 - k_{p,G_{i,1,k}})
-&nbsp;&nbsp;&nbsp;&nbsp; for j=1..size(G_{i,2}) // for all non-starters
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(G_{i,2}) // for all subs before this player
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeSub_k = beforeSub_k * (1 - k_{p,G_{i,2,k}})
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = 0
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(beforeStart)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = sum + beforeStart_k * beforeSub_j
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k_{p,G_{i,2,j}} = k_{p,G_{i,2,j}} * sum
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for m=1..k // for all starter before this player \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = k_{p,G_{i,1,m}} \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = beforeStart_k * (1 - k_{p,G_{i,1,k}}) \
+&nbsp;&nbsp;&nbsp;&nbsp; for j=1..size(G_{i,2}) // for all non-starters \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(G_{i,2}) // for all subs before this player \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeSub_k = beforeSub_k * (1 - k_{p,G_{i,2,k}}) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = 0 \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(beforeStart) \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = sum + beforeStart_k * beforeSub_j \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k_{p,G_{i,2,j}} = k_{p,G_{i,2,j}} * sum \
 
-## V2 - planned
+## V2 - work in progress
 
 ### Extra data:
 - average ratings for each player
+- variation for each player
+
+### Extra calculations:
+- average rating of each teams defenders, midfielders and strikers
+- probability of each player scores a virtual goal (MPG algorithm)
+
+## Future plans
+
+### Extra data:
+- for all player his ratings at every match
 - tactical substitutions
 
 ### Extra calculations: 
 - probability of the player actually playing in the fantasy team is adjusted by the chances of tactical substitutions
+- substitutes can play other positions as well, not just their main one
+- chances for Rotaldos, possibility of an own goal
+- how bonuses affect the outcomes?
 
-## V3 - planned
 
-### Extra calculations:
-- average rating of each teams defenders, midfielders and strikers
-- probability of each player scores a virtual goal
-
-## V4 - planned
-
-### Extra data:
-- for all player his ratings at every match
-
-### Extra calculations:
-- instead of using average ratings, we can predict the next rating with a stochastic method
