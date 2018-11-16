@@ -4,6 +4,29 @@
 
 #define MIN(a,b) ((a) < (b) ? (a) : (b))
 
+double snd(double z) {
+	double pi = 3.14159265;
+	
+	double sum = z;
+	double fact = 1;
+	for(int n=1; n<10; ++n) {
+		double coef = (2*n+1);
+		fact *= coef;
+		sum += (pow(z,coef) / fact);
+	}
+	return 1/2. + sum * std::exp(-1*z*z/2) / sqrt(2*pi); 
+}
+
+bool beat(const Player &x1, double e2, double v2) {
+	double e = x1.getAvgRating() - e2;
+	double v = sqrt(x1.getVariance() + v2)
+	
+	double x = (-1 * e) / v;
+	double z = (x - e) / v;
+	
+	return 1 - snd(z);
+}
+
 double sumUntil(const std::vector<double>& goal_p, int last) {
 	double res = 0;
 	
