@@ -48,8 +48,20 @@ E_{i,j} := p_{i,h) * p_{j,a}
 - starting lineups
 
 ### Extra calculations: 
-- probability of goal scoring is adjusted by the chance he will actually play in the fantasy team
-- // TODO: document algorithm
+- probability of goal scoring is adjusted by the chance he will actually play in the fantasy team \
+Group players into G^{4 x 2 x n}, criteria: position, starter or not, players \
+for i=1..4 // for all positions \
+&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(G_{i,1}) // for all starters \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for m=1..k // for all starter before this player
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = k_{p,G_{i,1,m}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeStart_k = beforeStart_k * (1 - k_{p,G_{i,1,k}})
+&nbsp;&nbsp;&nbsp;&nbsp; for j=1..size(G_{i,2}) // for all non-starters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(G_{i,2}) // for all subs before this player
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beforeSub_k = beforeSub_k * (1 - k_{p,G_{i,2,k}})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for k=1..size(beforeStart)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = sum + beforeStart_k * beforeSub_j
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; k_{p,G_{i,2,j}} = k_{p,G_{i,2,j}} * sum
 
 ## V2 - planned
 
