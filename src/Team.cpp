@@ -2,8 +2,8 @@
 #include <iostream>
 #include <algorithm>
 
-void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating) {
-    players.push_back(Player(_name, _goals, _matchesPlayed, _starter, _position, _avgRating));
+void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating, double _variance) {
+    players.push_back(Player(_name, _goals, _matchesPlayed, _starter, _position, _avgRating, _variance));
 }
 
 std::vector<Player> Team::sortPlayers() {
@@ -108,6 +108,42 @@ void Team::calcGoal_p() {
     for(int j=0; j<n; ++j) {
         goal_p.push_back(p[j][n-1]);
     }
+	
+	calcPosAvg();
+}
+
+void Team::calcPosAvg() {
+	std::vector<std::vector<Player> > grouppedPlayers(4);
+	// [position][Player]
+	
+	std::for_each(players.begin(), players.end(), [&grouppedPlayers](const Player& p){
+		int tmp = p.getStarter();
+		if(tmp==0) {
+			grouppedPlayers[p.getPosition()].push_back(p);
+		} 
+	});
+	
+	double avg = 0;
+	double var = 0;
+	for(int i=1; i<grouppedPlayers.size(); ++i) { // for all positions, except keepers
+		int n = grouppedPlayers[i].size();
+		for(int j=0; j<n; ++j) {
+			avg += grouppedPlayers[i][j].getAvgRating();
+			var += grouppedPlayers[i][j].getVariance();
+		}
+		avg /= grouppedPlayers[i].size();
+		var /= grouppedPlayers[i].size();
+		
+		if(n==4) {
+			avg += 0.5;
+		} else if(n==5) {
+			avg += 1;
+		}
+		
+		positionRating[i] = avg;
+		positionVariance[i] = var;
+	}
+	
 }
 
 void Team::print() {
@@ -115,4 +151,9 @@ void Team::print() {
     for(Player player: players) {
         player.print();
     }
+	std::cout << "Formation: ";
+	for(int i=0; i<lineup.size(); ++i) {
+		std::cout << lineup[i] << " - ";
+	}
+	std::cout << std::endl;
 }

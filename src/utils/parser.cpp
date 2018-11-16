@@ -20,7 +20,10 @@ void parseTeam(Team &team) {
 	int starter;
 	int position;
 	double avgRating;
+	double variance;
+	
 	bool onmatch = true;
+	std::vector<int> lineup(4,0);
 
     while(getline(input, line)) {
 		onmatch = true;
@@ -73,6 +76,10 @@ void parseTeam(Team &team) {
 //                std::cout << tmp << " ";
 					// std::cout << std::endl;
             }
+			else if (i==5) {
+				// std::cout << atof(tmp.c_str()) << std::endl;
+				variance = atof(tmp.c_str());
+			}
             else if(i==6) {
 //                std::cout << tmp << std::endl;
                 goals = atoi(tmp.c_str());
@@ -81,10 +88,13 @@ void parseTeam(Team &team) {
             i++;
         }
 		if(onmatch) {
-			team.addPlayer(name, goals, matchesPlayed, starter, position, avgRating);
+			team.addPlayer(name, goals, matchesPlayed, starter, position, avgRating, variance);
+			if(starter == 0) {
+				lineup[position]++;
+			}
 		}
     }
-
+	team.setLineup(lineup);
 
     input.close();
 }

@@ -93,8 +93,8 @@ void Match::searchMostProbableResults() {
 		return a.p > b.p;
 	});
 	
-	for(int i=0; i<results.size() && i<5; ++i) {
-		std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
-	}
-	std::cout << std::endl << std::endl;
+	// for(int i=0; i<results.size() && i<5; ++i) {
+		// std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
+	// }
+	// std::cout << std::endl << std::endl;
 }

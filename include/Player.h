@@ -10,13 +10,14 @@ class Player
     public:
         static double M;
 
-        Player(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating):
+        Player(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating, double _variance):
             name(_name),
             goals(_goals),
             matchesPlayed(_matchesPlayed),
 			starter(_starter),
 			position(_position),
-			avgRating(_avgRating) {
+			avgRating(_avgRating),
+			variance(_variance)	{
 
             if(matchesPlayed==0) {
                 avgGoals = 0;
@@ -39,6 +40,8 @@ class Player
         double getGoal_p() const { return goal_p; }
 		int getPosition() const { return position; }
 		int getStarter() const { return starter; }
+		double getAvgRating() { return avgRating; }
+		double getVariance() { return variance; }
 		
 		void recalcGoal_p() { goal_p = avgGoals * play_p; }
 
@@ -54,12 +57,12 @@ class Player
         double play_p;
         double goal_p;
 		double avgRating;
+		double variance;
 		
 		// not used yet
         std::vector<double> ratings;
         double tacticalSub_p;
         double virtualGoal_p;
-        std::map<double, double> ratingDistr_p;
 };
 
 #endif // PLAYER_H

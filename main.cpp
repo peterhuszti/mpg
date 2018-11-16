@@ -34,8 +34,8 @@ void simulateSeason(const std::vector<Team> &teams) {
 
 int main()
 {
-	std::vector<std::string> teamNames = {"ppa", "lit", "pcl", "bkv", "nle", "ala", "ong", "kot"};
-	// std::vector<std::string> teamNames = {"ppa"};
+	// std::vector<std::string> teamNames = {"ppa", "lit", "pcl", "bkv", "nle", "ala", "ong", "kot"};
+	std::vector<std::string> teamNames = {"ppa"};
 	std::vector<Team> teams;
 	
 	for(auto t: teamNames) {
@@ -49,14 +49,14 @@ int main()
 	}
 	
 	for(int i=0; i<teams.size(); ++i) {
-		std::cout << teams[i].getName() << std::endl;
+		// std::cout << teams[i].getName() << std::endl;
 		// double sum = 0;
 		teams[i].calcGoal_p();
-		// teams[i].print();
+		teams[i].print();
 		std::vector<double> goal_p = teams[i].getGoal_p();
 		for(int j=0; j<teams[i].getPlayerCount(); ++j)  {
 			// sum += goal_p[i];
-			std::cout << j << " different player scores: " << goal_p[j] <<  " " << std::endl;
+			// std::cout << j << " different player scores: " << goal_p[j] <<  " " << std::endl;
 		}
 		// std::cout << "sum: " << sum << std::endl;
 	}
