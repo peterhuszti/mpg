@@ -19,8 +19,11 @@ void parseTeam(Team &team) {
     int matchesPlayed;
 	int starter;
 	int position;
+	double avgRating;
+	bool onmatch = true;
 
     while(getline(input, line)) {
+		onmatch = true;
         std::stringstream ss(line);
 
         std::string tmp;
@@ -28,6 +31,7 @@ void parseTeam(Team &team) {
 
         while(getline(ss, tmp, '\t')) {
 			if(i==0) {
+				if (atoi(tmp.c_str()) == -1) onmatch = false;
 				starter = atoi(tmp.c_str());
 			}
             else if(i==1) {
@@ -41,12 +45,17 @@ void parseTeam(Team &team) {
 				else if(tmp == "F") position = 3;
 			}
             else if(i==4) {
-//                std::cout << tmp << " ";
+               // std::cout << tmp << " ";
                 int found = tmp.find("/");
                 if (found!=std::string::npos) {
+					std::string tmpAvg = tmp;
+					tmpAvg.erase(tmpAvg.begin()+found, tmpAvg.end());
+					avgRating = atof(tmpAvg.c_str());
+					// std::cout << avgRating << std::endl;
+					
                     tmp.erase(tmp.begin(), tmp.begin()+found+1);
                 }
-//                std::cout << tmp << " ";
+               // std::cout << tmp << " ";
                 found = tmp.find("{");
                 if (found!=std::string::npos) {
                     tmp.erase(tmp.begin()+found, tmp.end());
@@ -59,8 +68,10 @@ void parseTeam(Team &team) {
                     } else {
                         matchesPlayed = atoi(tmp.c_str());
                     }
+					avgRating = 0;
                 }
 //                std::cout << tmp << " ";
+					// std::cout << std::endl;
             }
             else if(i==6) {
 //                std::cout << tmp << std::endl;
@@ -69,7 +80,9 @@ void parseTeam(Team &team) {
 
             i++;
         }
-        team.addPlayer(name, goals, matchesPlayed, starter, position);
+		if(onmatch) {
+			team.addPlayer(name, goals, matchesPlayed, starter, position, avgRating);
+		}
     }
 
 

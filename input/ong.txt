@@ -1,0 +1,18 @@
+0	Ederson	G	22	5.50/12{5.56/36}	0.74{0.89}	0	4	5.5	6	5.5	6.5	5.5	6	6	5/5	Man City	West Ham	86.45%
+1	Boruc Artur	G	3	0.00	0.00	0										Bournemouth	Arsenal	35.60%
+0	Laporte Aymeric	D	24	5.71/12{5.80/28}	0.43{0.66}	1	5.5	5.5	5.5	6	6	6	6	6	6	Man City	West Ham	86.45%
+0	Mendy Benjamin	D	17	5.78/9(5.60/5){5.58/12}	0.82(0.58){0.79}	0	5	6	5	6.5	5.5					Man City	West Ham	86.45%
+1	Robertson Andrew	D	19	5.55/11(6.00/2){5.71/31}	0.81(1.00){1.03}	0{1}	7	5		6	5	4.5	5	5	7	Liverpool	Watford	80.65%
+0	Gomez Joseph	D	18	5.55/11(5.50/2){5.32/25}	0.40{0.51}	0	5.5	5.5		5	5	5	(5.5)	6	5	Liverpool	Watford	80.65%
+0	Bellerín Héctor	D	18	5.13/12{5.04/35}	0.84{0.91}	0{2}	4.5	5	4.5	6°	6.5	5.5	6.5	5	6*	Arsenal	Bournemouth	64.40%
+2	Lindelöf Victor	D	13	4.91/11(4.88/4){5.16/25}	0.85(0.82){0.81}	0	3.5	5.5	5.5	5		3°	5.5	5.5	5	Man United	Crystal Palace	77.52%
+0	Silva David	M	39	6.45/10(6.58/6){6.50/19}	0.96(1.06){1.11}	4{12}	7*	8*	6.5	7	4.5	6.5		7*	7*	Man City	West Ham	86.45%
+2	Maddison James	M	20	5.73/11	0.91	3		5	6	5	4.5	6.5	7*	6.5*		Leicester	Brighton	49.57%
+0	Özil Mesut	M	31	5.30/10(5.50/4){5.54/26}	1.31(1.46){1.29}	3{6}	4.5	5	4.5	8*		6.5*	5	7*		Arsenal	Bournemouth	64.40%
+0	Ramsey Aaron	M	14	5.17/12{5.40/25}	0.69{1.50}	1{5}	-5	-5	-5	-5	(7*)	4	5.5	5.5	-4	Arsenal	Bournemouth	64.40%
+0	Shelvey Jonjo	M	14	5.31/8{5.26/29}	0.66{0.93}	0{1}		4.5	5	6	6.5	5	4.5			Newcastle	Burnley	67.00%
+1	De Bruyne Kevin	M	8	4.83/3{6.13/28}	0.62{1.36}	0{5}			-4	-5					7/6	Man City	West Ham	86.45%
+0	Morata Álvaro	F	27	5.18/11(5.21/7){4.84/31}	1.25(1.44){1.24}	5{8}	3.5	8**	6*	4	(6*)	(4.5)	(4.5)		6*	Chelsea	Tottenham	40.34%
+2	Pedro	F	18	5.50/10(5.10/5){5.03/31}	1.16(1.20){1.11}	4{6}	(4.5)	7.5*	4.5	(4.5)	(4.5)			4.5		Chelsea	Tottenham	40.34%
+0	Gabriel Jesus	F	12	4.72/9{4.98/27}	1.03{1.28}	1{6}			(4.5)	-4	-4	(4.5)		-5	(7)/7*	Man City	West Ham	86.45%
+1	Son Heung-Min	F	24	4.86/7(4.50/2){5.48/33}	0.35{1.46}	0{10}	(4.5)	(4.5)			5	5.5	5	(4.5)	7	Tottenham	Chelsea	59.66%

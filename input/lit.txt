@@ -1,17 +1,17 @@
 1	Hennessey Wayne	G	15	5.50/12{5.44/32}	1.06{0.91}	0	5	4	4	5	5	5.5	6	6	4	Crystal Palace	Man United	22.48%						
 0	Rui Patrício	G	16	5.50/12	0.82	0	5	5	4.5	4.5	6	7	6	6		Wolverhampton	Huddersfield	67.63%						
 0	Paterson Callum	D	19	5.35/10(5.58/6)	0.98(1.10)	3	7*	4	5.5*	7*	5	5		(5.5)		Cardiff	Everton	29.30%						
-0	Duffy Shane	D	20	5.58/12{5.08/37}	1.17{1.21}	2	5.5	4	6.5	7	5.5	4.5	5	7.5*	4	Brighton	Leicester	50.43%						
+1	Duffy Shane	D	20	5.58/12{5.08/37}	1.17{1.21}	2	5.5	4	6.5	7	5.5	4.5	5	7.5*	4	Brighton	Leicester	50.43%						
 0	Tarkowski James	D	11	4.68/11{4.98/30}	1.43{1.08}	2		2	3	3	5.5	5	6	5.5		Burnley	Newcastle	33.00%						
-1	Walker Kyle	D	23	5.75/10(5.67/3){5.50/31}	0.56(0.47){0.82}	1	6	6	5		5.5	5.5	5.5	6	6/5	Man City	West Ham	86.45%						
+0	Walker Kyle	D	23	5.75/10(5.67/3){5.50/31}	0.56(0.47){0.82}	1	6	6	5		5.5	5.5	5.5	6	6/5	Man City	West Ham	86.45%						
 2	van Aanholt Patrick	D	17	5.00/12{5.28/32}	0.89{1.03}	1{6}	4	4.5	5	4.5	5	6*	5	5	5*	Crystal Palace	Man United	22.48%						
 3	Davies Ben	D	10	5.00/9(5.30/5){5.34/29}	0.67(0.51){0.80}	0	6	5.5	4.5	5.5	-5				4	Tottenham	Chelsea	59.66%						
 0	Felipe Anderson	M	19	5.63/12	1.31	4	6*	8**	5.5	3.5	5	8*	5	6		West Ham	Man City	13.55%						
 0	Lucas Moura	M	19	5.00/12	1.21{1.04}	4	4	6.5*	3.5	5	5.5	4.5	4	4		Tottenham	Chelsea	59.66%						
 0	Milner James	M	23	5.75/12{5.47/34}	0.88{0.83}	2	-5	7*	(4.5)	5	4.5	5.5	(5.5)	6	-5	Liverpool	Watford	80.65%						
 0	Rúben Neves	M	20	5.75/12	0.95	2	6	5.5*	5.5	4	6.5	7	6	5		Wolverhampton	Huddersfield	67.63%						
-1	Mkhitaryan Henrikh	M	14	5.11/9(5.25/2){5.29/24}	0.87(0.75){1.24}	2{4}	(6*)	4.5		5	5.5			-5		Arsenal	Bournemouth	64.40%						
-2	João Moutinho	M	18	5.33/12{5.51/35}	0.92{1.10}	1{2}	5	4.5	6	4.5	6	6	6*	4.5		Wolverhampton	Huddersfield	67.63%						
+2	Mkhitaryan Henrikh	M	14	5.11/9(5.25/2){5.29/24}	0.87(0.75){1.24}	2{4}	(6*)	4.5		5	5.5			-5		Arsenal	Bournemouth	64.40%						
+1	João Moutinho	M	18	5.33/12{5.51/35}	0.92{1.10}	1{2}	5	4.5	6	4.5	6	6	6*	4.5		Wolverhampton	Huddersfield	67.63%						
 0	Richarlison	F	26	5.70/10(5.64/7){4.67/36}	1.25(0.99){1.17}	6	4.5	7.5**	6	5	6*	6	4.5			Everton	Cardiff	70.70%						
 0	Kane Harry	F	44	5.33/12{5.66/38}	1.12{1.37}	6{27}	5	7*	3.5	5	5	7**	6.5*	4	-4	Tottenham	Chelsea	59.66%						
 0	Murray Glenn	F	25	4.96/12{4.58/37}	1.38{1.27}	6{14}	4	4	6.5*	4.5	6.5*	(4.5)	2.5	5.5*	2	Brighton	Leicester	50.43%						

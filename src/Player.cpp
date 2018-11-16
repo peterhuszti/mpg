@@ -12,5 +12,6 @@ void Player::print() {
               << "\n   avgGoals: " << avgGoals
               << "\n   playing probability: " << play_p
               << "\n   goal probability: " << goal_p
+			  << "\n   avg rating: " << avgRating
               << std::endl;
 }

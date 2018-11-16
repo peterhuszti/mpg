@@ -2,8 +2,8 @@
 #include <iostream>
 #include <algorithm>
 
-void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position) {
-    players.push_back(Player(_name, _goals, _matchesPlayed, _starter, _position));
+void Team::addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating) {
+    players.push_back(Player(_name, _goals, _matchesPlayed, _starter, _position, _avgRating));
 }
 
 std::vector<Player> Team::sortPlayers() {
@@ -70,11 +70,11 @@ void Team::calcPlay_p() {
 }
 
 void Team::calcGoal_p() {
-	// calcPlay_p();
+	calcPlay_p();
 	
-	// for(int i=0; i<players.size(); ++i) {
-		// players[i].recalcGoal_p();
-	// }
+	for(int i=0; i<players.size(); ++i) {
+		players[i].recalcGoal_p();
+	}
 	
     double res = 1;
     int n = players.size();

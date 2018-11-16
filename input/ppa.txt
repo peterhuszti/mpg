@@ -1,18 +1,22 @@
 0	Hart Joe	G	14	5.67/12{5.21/19}	1.20{1.37}	0	6	4.5	5	4	5	6	7	6		Burnley	Newcastle	33.00%
 1	Hewelt Mateusz	G	1	0.00	0.00	0										Everton	Cardiff	70.70%
+0	Sol Bamba	D	18	5.18/11(5.33/6)	1.05(0.99)	2	6*	6	3.5	6	6	4.5		4.5*		Cardiff	Everton	29.30%
 0	Dunk Lewis	D	14	5.05/11(5.22/9){4.99/37}	1.01(1.03){1.12}	2{3}	7*	4*	6	6.5	5.5	4.5	5	4.5	5	Brighton	Leicester	50.43%
 0	Keane Michael	D	15	5.70/10(5.50/7){5.17/30}	0.68(0.60){0.94}	1	5.5	5.5	4.5	6.5	5.5	6	5			Everton	Cardiff	70.70%
-0	Balbuena Fabián	D	16	5.21/12	1.14	1	5	4.5	7.5*	5	5.5	5.5	7	5		West Ham	Man City	13.55%
+-1	Balbuena Fabián	D	16	5.21/12	1.14	1	5	4.5	7.5*	5	5.5	5.5	7	5		West Ham	Man City	13.55%
 1	Doherty Matt	D	10	5.13/12	1.21	1	5	4	5	4	7*	7	4.5	6		Wolverhampton	Huddersfield	67.63%
-2	Kiko Femenía	D	13	5.30/10(5.31/8){5.09/22}	0.71(0.79){0.87}	0{1}	5	5	7	6	4.5	-5	(4.5)	(5.5)	3	Watford	Liverpool	19.35%
-3	Zabaleta Pablo	D	11	5.11/9(5.19/8){4.77/35}	0.74(0.75){0.99}	0	4.5	5	5	5	4.5	7	5	5.5	5/3°	West Ham	Man City	13.55%
+-1	Kiko Femenía	D	13	5.30/10(5.31/8){5.09/22}	0.71(0.79){0.87}	0{1}	5	5	7	6	4.5	-5	(4.5)	(5.5)	3	Watford	Liverpool	19.35%
+-1	Zabaleta Pablo	D	11	5.11/9(5.19/8){4.77/35}	0.74(0.75){0.99}	0	4.5	5	5	5	4.5	7	5	5.5	5/3°	West Ham	Man City	13.55%
 0	Sigurdsson Gylfi	M	31	6.17/12{5.64/28}	0.94{1.16}	5{9}	6	5.5	7*	6	7*	8**	6.5	5.5*		Everton	Cardiff	70.70%
 0	Pereyra Roberto	M	23	5.33/12{5.05/37}	1.64{1.27}	5{9}	3	3.5	7.5*	7*	3.5	4.5	5	4.5	4	Watford	Liverpool	19.35%
 0	Schürrle André	M	24	5.25/12	1.35	4	5	3.5	3.5	7*	6*	4.5	5.5	4.5		Fulham	Southampton	36.13%
-0	Brooks David	M	19	5.41/11(5.44/8)	1.02(1.16)	3	4.5	5.5	7*	4.5	7.5*	5.5*	4	5		Bournemouth	Arsenal	35.60%
-1	Josh Murphy	M	14	5.00/10	1.14(1.36)	2	4.5	3.5	3.5	7*	5	7*	(4.5)			Cardiff	Everton	29.30%
-2	Kenedy	M	15	5.09/11(5.28/9){5.25/24}	0.85(0.75){1.03}	1{3}	6	6.5	5	5.5	6*	4.5	4	-5	7	Newcastle	Burnley	67.00%
-3	Fernandinho	M	30	6.25/12{6.18/34}	0.90{0.91}	1{4}	7	7	6	8*	6	6	6	7	(5)/8*	Man City	West Ham	86.45%
+3	Brooks David	M	19	5.41/11(5.44/8)	1.02(1.16)	3	4.5	5.5	7*	4.5	7.5*	5.5*	4	5		Bournemouth	Arsenal	35.60%
+2	Josh Murphy	M	14	5.00/10	1.14(1.36)	2	4.5	3.5	3.5	7*	5	7*	(4.5)			Cardiff	Everton	29.30%
+0	Fernandinho	M	30	6.25/12{6.18/34}	0.90{0.91}	1{4}	7	7	6	8*	6	6	6	7	(5)/8*	Man City	West Ham	86.45%
+1	Kenedy	M	15	5.09/11(5.28/9){5.25/24}	0.85(0.75){1.03}	1{3}	6	6.5	5	5.5	6*	4.5	4	-5	7	Newcastle	Burnley	67.00%
 0	Aubameyang Pierre-Emerick	F	44	5.50/12{5.64/25}	1.27{1.50}	7{17}	4.5	4.5	5.5*	(7.5**)	(8**)	5	6.5*	4.5		Arsenal	Bournemouth	64.40%
 0	Mohamed Salah	F	45	5.96/12{6.24/36}	0.92{1.39}	6{29}	6.5*	5.5	8*	6*	4.5	5	6*	5.5	9****	Liverpool	Watford	80.65%
-0	Gray Andre	F	9	4.71/12{4.44/31}	0.83{1.04}	3{7}	(4.5)	-4	(4.5)	(4.5)	4.5	3.5	6*	6*		Watford	Liverpool	19.35%
+-1	Gray Andre	F	9	4.71/12{4.44/31}	0.83{1.04}	3{7}	(4.5)	-4	(4.5)	(4.5)	4.5	3.5	6*	6*		Watford	Liverpool	19.35%
+1	Cavaleiro Ivan	F	9	5.00/6	0.76	2	6*	4	-5	(4.5)	(4.5)	(6*)				Wolverhampton	Huddersfield	67.63%
+0	Rondón Salomón	F	8	4.57/7(5.17/3){4.78/32}	1.50(2.01){1.17}	2{8}	8**	3.5	-4				3.5			Newcastle	Burnley	67.00%
+2	Gabbiadini Manolo	F	7	4.69/8(7.00){4.35/24}	1.00{0.91}	1{3}	7*		-5	-4	3.5	(4.5)		-4		Southampton	Fulham	63.87%

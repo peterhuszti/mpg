@@ -11,7 +11,7 @@ class Team
 		std::string getName() const { return name; }
 		int getPlayerCount() { return players.size(); }
 		std::vector<double> getGoal_p() { return goal_p; }
-        void addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position);
+        void addPlayer(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating);
 
         void calcGoal_p();
 		void calcPlay_p();
@@ -25,7 +25,6 @@ class Team
         std::string name;
         std::vector<Player> players;
 		std::vector<int> starter;
-        std::map<int, double> goalDistr_p;
 };
 
 #endif // TEAM_H

@@ -1,20 +1,19 @@
-Lloris Hugo	G	19	6.57/7(6.75/4){5.61/33}	0.49(0.43){1.07}	0	7	6	7	7					6	Tottenham	Crystal Palace	82.05%
-Pickford Jordan	G	15	5.45/11{5.29/38}	1.36{1.39}	0	5	8	7.5	5	5.5	5	2.5	5.5	7	Everton	Chelsea	38.69%
-Rüdiger Antonio	D	19	5.77/11{5.47/29}	0.58{1.07}	1{3}	5	6	6	7	5.5	5.5	5.5	6	6	Chelsea	Everton	61.31%
-Laporte Aymeric	D	22	5.73/11{5.79/28}	0.45{0.67}	1	5.5	5.5	6	6	6	6	6	4.5		Man City	Man United	73.25%
-Smalling Chris	D	16	4.94/9{5.52/32}	0.90	1{5}	5.5	4.5	4.5	4.5	4	5	7	5.5	5/6	Man United	Man City	26.75%
-Otamendi Nicolás	D	15	6.17/3{5.48/26}	0.24{1.10}	0{2}					6	6.5	6		7/4	Man City	Man United	73.25%
-Kompany Vincent	D	9	5.33/6{5.50/20}	0.47{0.74}	0{1}	-5	-5	6					-5	5/5	Man City	Man United	73.25%
-Sánchez Davinson	D	8	5.31/8(5.60/5){5.34/31}	0.75(0.37){0.80}	0	-5	5.5	5.5	6	6			3.5	6	Tottenham	Crystal Palace	82.05%
-Mahrez Riyad	M	22	5.45/10{5.44/35}	1.35{1.46}	4{14}		6.5	8	3.5	-5	(7.5)	-5	4.5		Man City	Man United	73.25%
-Bernardo Silva	M	30	5.82/11{5.72/36}	0.94{1.02}	3{7}	7	5.5	6	5	5.5	8	6	(4.5)	(5)/5	Man City	Man United	73.25%
-Xhaka Granit	M	19	5.36/11{5.61/38}	1.15{0.99}	2{3}	7	5	4.5	5.5	6	5.5	7	6		Arsenal	Wolverhampton	67.76%
-Gueye Idrissa	M	19	5.80/10(5.86/7){5.63/32}	0.95(1.09){1.02}	0{2}	7	5	7	5.5	7	5.5	4		6	Everton	Chelsea	38.69%
-Lingard Jesse	M	18	4.71/7(5.00/2){5.29/31}	0.45{1.11}	0{8}	-5	-5				4.5	4.5	5.5	4/5	Man United	Man City	26.75%
-Lanzini Manuel	M	5	0.00{5.33/21}	0.00{1.55}	0{4}									8	West Ham	Huddersfield	76.18%
-Richarlison	F	19	5.83/9{4.74/36}	1.25(0.94){1.23}	6{7}	7.5	6	5	6	6	4.5				Everton	Chelsea	38.69%
-Sané Leroy	F	24	5.78/9(7.00){5.80/30}	1.00{1.10}	3{6}	7		7	-5	6	6	7		6/6	Man City	Man United	73.25%
-Sánchez Alexis	F	19	5.19/8(5.50){5.63/31}	0.75{1.05}	1{9}	5.5		-4	(6.5)		5	5	6	7	Man United	Man City	26.75%
-Shaqiri Xherdan	F	12	5.14/7(5.67/3){5.06/33}	0.58(0.47){1.06}	1{7}	-5	-6	6		-5	4.5		(4.5)		Liverpool	Fulham	89.70%
-Ayoze Pérez	F	13	4.77/11{5.20/28}	0.62{0.96}	1{8}	-6	4.5	5	6	4	4.5	4.5	4.5	5	Newcastle	Bournemouth	38.01%
-Son Heung-Min	F	27	4.92/6(4.50){5.50/33}	0.34{1.45}	0{10}	(4.5)			5	5.5	5	(4.5)		-4	Tottenham	Crystal Palace	82.05%
+0	Lloris Hugo	G	25	6.63/8(6.80/5){5.67/33}	0.48(0.40){1.09}	0	7	7	6	7	7				4	Tottenham	Chelsea	59.66%
+1	Begovic Asmir	G	15	5.33/12{5.03/38}	1.28{1.26}	0	6	4.5	6	6	6	5	3	6.5	6	Bournemouth	Arsenal	35.60%
+0	Maguire Harry	D	26	5.68/11{5.31/37}	1.15{1.19}	2{3}		5.5	6	4	4.5	8*	6	5	5	Leicester	Brighton	49.57%
+0	Alonso Marcos	D	29	5.88/12{5.74/33}	0.89{0.90}	1{5}	6	6	7	4.5	5.5	5.5	5	5	5	Chelsea	Tottenham	40.34%
+0	Stones John	D	15	5.78/9(5.90/5){5.47/15}	0.34(0.20){0.78}	0	6	6	5.5	6	6		-5			Man City	West Ham	86.45%
+0	Holding Rob	D	13	5.64/7{5.11/14}	0.64{0.95}	0	5	6	5.5	5	5.5	7	(5.5)		3	Arsenal	Bournemouth	64.40%
+2	Alexander-Arnold Trent	D	15	5.40/10(5.17/3){5.52/25}	0.58(0.62){1.04}	0{1}	6	5	4.5			5	6	6		Liverpool	Watford	80.65%
+1	Fosu-Mensah Timothy	D	10	4.21/7{4.50/19}	0.65{0.74}	0		3°	4			5	5			Fulham	Southampton	36.13%
+0	Bernardo Silva	M	33	5.96/12{5.79/36}	1.01{1.05}	3{7}	7.5	7	5.5	6*	5	5.5	8*	6	-5	Man City	West Ham	86.45%
+1	Barkley Ross	M	19	5.45/11(5.63/8){5.15/13}	1.20(1.36){1.32}	3	(4.5)	4	8*	(6*)	7.5*	(4.5)	(5.5)	-5		Chelsea	Tottenham	40.34%
+0	Gündogan Ilkay	M	13	6.07/7(6.00){5.92/30}	0.90{1.01}	2{6}	(6*)						8*	(5.5)	6	Man City	West Ham	86.45%
+2	Loftus-Cheek Ruben	M	9	5.67/3{5.58/19}	0.94{1.04}	1{3}			(7*)							Chelsea	Tottenham	40.34%
+0	Iwobi Alex	M	12	4.78/9(4.71/7){5.21/29}	0.82(0.75){1.10}	1{3}	3.5	-6	4	5	5	-5	(4.5)		6	Arsenal	Bournemouth	64.40%
+0	Torreira Lucas	M	26	5.83/12	0.94	0	6	7	6.5	6	7	5	6	(4.5)		Arsenal	Bournemouth	64.40%
+0	Agüero Sergio	F	45	6.08/12{6.10/29}	1.32{1.45}	8{21}	6*	8*	4.5	6*	4	6.5*	7*	7	4	Man City	West Ham	86.45%
+0	Hazard Eden	F	49	6.23/11(6.00/2){5.99/36}	1.23	7{16}	6	-6		5	8*	7*	3.5	8***	5	Chelsea	Tottenham	40.34%
+1	Danny Ings	F	16	5.18/11(4.75/6){4.89/19}	0.98(0.63){0.99}	4{5}	5	5*	5.5	4.5	3.5	5		6.5*		Southampton	Fulham	63.87%
+0	Tosun Cenk	F	15	4.95/10{4.90/24}	0.79{1.12}	2{7}			(4.5)	(6*)	-4	(6*)	-5	4		Everton	Cardiff	70.70%
+-1	Yarmolenko Andriy	F	10	4.83/9	0.53	2				5	4.5	5.5	4.5	6**		West Ham	Man City	13.55%

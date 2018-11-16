@@ -10,12 +10,13 @@ class Player
     public:
         static double M;
 
-        Player(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position):
+        Player(std::string _name, int _goals, int _matchesPlayed, int _starter, int _position, double _avgRating):
             name(_name),
             goals(_goals),
             matchesPlayed(_matchesPlayed),
 			starter(_starter),
-			position(_position) {
+			position(_position),
+			avgRating(_avgRating) {
 
             if(matchesPlayed==0) {
                 avgGoals = 0;
@@ -52,8 +53,10 @@ class Player
         double avgGoals;
         double play_p;
         double goal_p;
+		double avgRating;
+		
+		// not used yet
         std::vector<double> ratings;
-        double avgRating;
         double tacticalSub_p;
         double virtualGoal_p;
         std::map<double, double> ratingDistr_p;

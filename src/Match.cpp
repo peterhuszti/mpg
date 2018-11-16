@@ -32,10 +32,10 @@ void Match::calcWin_p() {
 	away_p = sumUntil(away, n);
 	draw_p = sumUntil(draw, n);
 	
-	// std::cout << teamA.getName() << " win: " << home_p << "   "
-	// << teamB.getName() << " win: " << away_p << "   draw: " 
-	// << draw_p << std::endl << std::endl;
-	// std::cout << home_p + away_p + draw_p << std::endl;
+	std::cout << teamA.getName() << " win: " << home_p << "   "
+	<< teamB.getName() << " win: " << away_p << "   draw: " 
+	<< draw_p << std::endl << std::endl;
+	std::cout << home_p + away_p + draw_p << std::endl;
 }
 
 void Match::calcResult_p() {
@@ -93,8 +93,8 @@ void Match::searchMostProbableResults() {
 		return a.p > b.p;
 	});
 	
-	// for(int i=0; i<results.size() && i<5; ++i) {
-		// std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
-	// }
-	// std::cout << std::endl << std::endl;
+	for(int i=0; i<results.size() && i<5; ++i) {
+		std::cout << results[i].p << " " << results[i].h << " " << results[i].a << std::endl;
+	}
+	std::cout << std::endl << std::endl;
 }
