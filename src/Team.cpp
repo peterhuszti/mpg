@@ -123,9 +123,9 @@ void Team::calcPosAvg() {
 		} 
 	});
 	
-	double avg = 0;
-	double var = 0;
 	for(int i=1; i<grouppedPlayers.size(); ++i) { // for all positions, except keepers
+		double avg = 0;
+		double var = 0;
 		int n = grouppedPlayers[i].size();
 		for(int j=0; j<n; ++j) {
 			avg += grouppedPlayers[i][j].getAvgRating();
@@ -134,11 +134,15 @@ void Team::calcPosAvg() {
 		avg /= grouppedPlayers[i].size();
 		var /= grouppedPlayers[i].size();
 		
-		if(n==4) {
-			avg += 0.5;
-		} else if(n==5) {
-			avg += 1;
+		if(i==1) {
+			if(n==4) {
+				avg += 0.5;
+			} else if(n==5) {
+				avg += 1;
+			}
 		}
+		
+		std::cout << avg << "   " << var << std::endl;
 		
 		positionRating[i] = avg;
 		positionVariance[i] = var;
@@ -149,7 +153,7 @@ void Team::calcPosAvg() {
 void Team::print() {
     std::cout << name << std::endl;
     for(Player player: players) {
-        player.print();
+        // player.print();
     }
 	std::cout << "Formation: ";
 	for(int i=0; i<lineup.size(); ++i) {

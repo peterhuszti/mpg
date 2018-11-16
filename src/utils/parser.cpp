@@ -48,12 +48,13 @@ void parseTeam(Team &team) {
 				else if(tmp == "F") position = 3;
 			}
             else if(i==4) {
+				avgRating = atof(tmp.c_str());
                // std::cout << tmp << " ";
                 int found = tmp.find("/");
                 if (found!=std::string::npos) {
 					std::string tmpAvg = tmp;
 					tmpAvg.erase(tmpAvg.begin()+found, tmpAvg.end());
-					avgRating = atof(tmpAvg.c_str());
+					// avgRating = atof(tmpAvg.c_str());
 					// std::cout << avgRating << std::endl;
 					
                     tmp.erase(tmp.begin(), tmp.begin()+found+1);
@@ -71,7 +72,7 @@ void parseTeam(Team &team) {
                     } else {
                         matchesPlayed = atoi(tmp.c_str());
                     }
-					avgRating = 0;
+					// avgRating = 0;
                 }
 //                std::cout << tmp << " ";
 					// std::cout << std::endl;
