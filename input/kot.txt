@@ -1,19 +1,19 @@
-0	Pickford Jordan	G	20	5.58/12{5.37/38}	1.37{1.40}	0	7	5	8	7.5	5	5.5	5	2.5		Everton	Cardiff	70.70%
-0	Leno Bernd	G	14	5.42/6	0.67	0	6	4	5.5	6	5.5	(5.5)				Arsenal	Bournemouth	64.40%
-0	Rüdiger Antonio	D	27	5.71/12{5.45/30}	0.59{1.05}	1{3}	5	5	6	6*	7	5.5	5.5	5.5	3	Chelsea	Tottenham	40.34%
-0	Cathcart Craig	D	13	5.21/12{5.25/18}	1.07{0.92}	1	5	5.5	6	6	3.5	3°	5	4.5		Watford	Liverpool	19.35%
-0	Monreal Nacho	D	14	5.21/7{5.24/23}	0.84{1.06}	1{4}					5	5.5	5	5		Arsenal	Bournemouth	64.40%
-0	Coleman Seamus	D	13	5.13/8(5.38/4){5.10/20}	0.82(1.08){1.01}	1	5.5	7*	4	5						Everton	Cardiff	70.70%
-0	Azpilicueta César	D	24	5.42/12{5.38/37}	0.57{0.90}	0{1}	5	5	6.5	5	5	4.5	5.5	6	5	Chelsea	Tottenham	40.34%
-0	Bennett Ryan	D	10	4.96/12	0.90	0	6	3.5	4.5	4	5.5	6	5.5	5.5		Wolverhampton	Huddersfield	67.63%
-0	Berg Gudmundsson Johann	M	19	5.32/11(5.44/8){5.30/35}	1.25(1.45){0.96}	2{4}	4.5	6*	3.5	3.5	6.5	7*	7.5	5	4	Burnley	Newcastle	33.00%
-0	Xhaka Granit	M	21	5.25/12{5.58/38}	1.16{1.02}	2{3}	4	7	5*	4.5	5.5	6	5.5	7*	5	Arsenal	Bournemouth	64.40%
-0	Wilfred Ndidi	M	23	5.67/12{5.52/33}	0.69{0.80}	1	6	6	6*	4	6	6	5.5	5	6	Leicester	Brighton	49.57%
-0	Dele Alli	M	17	5.43/7(5.00){5.50/32}	1.08{1.31}	1{7}	5		(5.5)				(4.5)		8**	Tottenham	Chelsea	59.66%
-0	Townsend Andros	M	19	5.13/12{5.43/36}	0.77{1.01}	1{3}	5	7*	5	4.5	4.5	4.5	6	5	7*	Crystal Palace	Man United	22.48%
-0	Matic Nemanja	M	20	5.28/9(5.33/6){5.68/33}	0.34(0.24){0.79}	0{1}	5.5	5.5	5.5	5.5	5	5		5.5	8*	Man United	Crystal Palace	77.52%
-0	Lewis Cook	M	14	5.25/10(5.42/6){4.90/34}	0.51(0.61){0.95}	0	5	5	6.5	5	6	5		-5	5	Bournemouth	Arsenal	35.60%
-0	Jiménez Raúl	F	17	5.38/12	01.04	3	6	7*	4	3.5	5.5	6.5	6	6*		Wolverhampton	Huddersfield	67.63%
-0	Zaha Wilfried	F	23	5.20/10{5.42/33}	0.84{1.12}	3{9}		5	6	4.5	4	4.5	5	7*		Crystal Palace	Man United	22.48%
-0	Shaqiri Xherdan	F	13	5.25/8(5.75/4){5.06/33}	0.61(0.43){1.06}	2{8}	6*	-5	(6*)	6		-5	4.5			Liverpool	Watford	80.65%
-0	Roberto Firmino	F	26	5.04/12{5.55/37}	0.72{1.32}	2{14}	5.5	4	4.5	(4.5)	4	5.5	4.5	6*	7*	Liverpool	Watford	80.65%
+0	Pickford Jordan	G	16	5.47/16{5.33/38}	1.26{1.29}	0	5	6	4	5.5	7	5	8	7.5	3	Everton
+1	Leno Bernd	G	16	5.35/10	0.63	0	5.5	5	4.5	6	6	4	5.5	6		Arsenal
+0	Rüdiger Antonio	D	25	5.47/16{5.30/32}	0.87{1.07}	1{2}	5.5	4.5	6	3	5	5	6	6*	6/7	Chelsea
+1	Monreal Nacho	D	9	5.19/8(5.00){5.33/20}	0.79{1.05}	1{4}	-5									Arsenal
+2	Cathcart Craig	D	12	5.06/16{5.14/22}	1.03{0.92}	1	5.5	4.5	5	3.5	5	5.5	6	6		Watford
+0	Coleman Seamus	D	12	5.04/12(5.13/8){5.06/24}	0.85(1.02){0.99}	1	3.5°	5	6	5	5.5	7*	4	5	3	Everton
+0	Azpilicueta César	D	26	5.41/16{5.38/38}	0.59{0.90}	0{1}	6.5	5	5	5	5	5	6.5	5	8/6	Chelsea
+0	Bennett Ryan	D	9	4.83/15(4.75/2)	0.89(0.25)	0	4.5	5		3.5	6	3.5	4.5	4		Wolverhampton
+0	Dele Alli	M	22	5.64/11(5.80/5){5.59/32}	1.19(1.21){1.35}	3{9}	7*	-5	4.5	7.5*	5		(5.5)		6	Tottenham
+0	Xhaka Granit	M	25	5.50/15(7.00){5.64/37}	1.17{1.03}	2{3}	7		6.5	6	4	7	5*	4.5	6	Arsenal
+-1	Johann Gudmundsson	M	21	5.29/14(5.17/3){5.24/34}	1.15(0.62){0.96}	2{4}	6	4.5	5		4.5	6*	3.5	3.5	4	Burnley
+0	Townsend Andros	M	22	5.19/16{5.42/36}	0.83{1.04}	2{4}	4.5	5	7*	5	5	7*	5	4.5	8/6	Crystal Palace
+0	Wilfred Ndidi	M	22	5.75/16{5.55/33}	0.68{0.83}	1	5.5	5.5	7	-6	6	6	6*	4	4/4	Leicester
+1	Matic Nemanja	M	22	5.23/13(5.25/10){5.61/33}	0.42(0.40){0.78}	0{1}	6	5	4.5	5	5.5	5.5	5.5	5.5	5	Man United
+-1	Lewis Cook	M	4	5.04/13{4.77/33}	0.63{0.91}	0		4	4	-5	5	5	6.5	5		Bournemouth
+0	Roberto Firmino	F	27	5.31/16{5.61/38}	0.86{1.25}	4{14}	6.5	(6*)	5	7*	5.5	4	4.5	(4.5)	6	Liverpool
+0	Jiménez Raúl	F	15	5.16/16	1.11	4	-5	6*	3.5	3.5	6	7*	4	3.5		Wolverhampton
+-1	Shaqiri Xherdan	F	19	5.21/12(5.44/8){5.05/33}	0.66(0.68){0.90}	3{7}	5.5	6*	4	5	6*	-5	(6*)	6		Liverpool
+-1	Zaha Wilfried	F	17	5.07/14(4.75/4){5.39/33}	0.80(0.56){1.13}	3{9}	4.5	5	5.5	4		5	6	4.5	7*/8*	Crystal Palace

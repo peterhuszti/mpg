@@ -33,16 +33,16 @@ class Player
                 goal_p = 0.001;
             }
         }
-		
+
         std::string getName() { return name; }
         double getPlay_p() { return play_p; }
 		double setPlay_p(double p) { play_p = p; }
         double getGoal_p() const { return goal_p; }
 		int getPosition() const { return position; }
 		int getStarter() const { return starter; }
-		double getAvgRating() { return avgRating; }
-		double getVariance() { return variance; }
-		
+		double getAvgRating() const { return avgRating; }
+		double getVariance() const { return variance; }
+
 		void recalcGoal_p() { goal_p = avgGoals * play_p; }
 
         void print();
@@ -58,7 +58,7 @@ class Player
         double goal_p;
 		double avgRating;
 		double variance;
-		
+
 		// not used yet
         std::vector<double> ratings;
         double tacticalSub_p;

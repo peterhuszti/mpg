@@ -13,41 +13,41 @@ Team findTeam(const std::vector<Team>& teams, std::string name) {
 
 void simulateSeason(const std::vector<Team> &teams) {
 	int n = teams.size();
-	
+
 	std::vector<double> points(n,0);
-	
+
 	for(int i=0; i<n; ++i) {
 		for(int j=i+1; j<n; ++j) {
 			Match match(teams[i], teams[j]);
 			points[i] += 6 * match.getHome_p();
 			points[i] += 2 * match.getDraw_p();
-			
+
 			points[j] += 6 * match.getAway_p();
 			points[j] += 2 * match.getDraw_p();
 		}
 	}
-	
-	for(int i=0; i<n; ++i) { 
+
+	for(int i=0; i<n; ++i) {
 		std::cout << teams[i].getName() << ": " << points[i] << std::endl;
 	}
 }
 
 int main()
 {
-	// std::vector<std::string> teamNames = {"ppa", "lit", "pcl", "bkv", "nle", "ala", "ong", "kot"};
-	std::vector<std::string> teamNames = {"ppa"};
+	 std::vector<std::string> teamNames = {"ppa", "lit", "pcl", "bkv", "nle", "ala", "ong", "kot"};
+	//std::vector<std::string> teamNames = {"ppa"};
 	std::vector<Team> teams;
-	
+
 	for(auto t: teamNames) {
 		Team temp(t);
 		teams.push_back(std::move(temp));
 	}
-	
+
 	for(int i=0; i<teams.size(); ++i) {
 		parseTeam(teams[i]);
 		// teams[i].print();
 	}
-	
+
 	for(int i=0; i<teams.size(); ++i) {
 		// std::cout << teams[i].getName() << std::endl;
 		// double sum = 0;
@@ -60,12 +60,12 @@ int main()
 		}
 		// std::cout << "sum: " << sum << std::endl;
 	}
-	// Match(findTeam(teams,"ong"), findTeam(teams,"nle"));
-	// Match(findTeam(teams,"ala"), findTeam(teams,"lit"));
-	// Match(findTeam(teams,"pcl"), findTeam(teams,"ppa"));
-	// Match(findTeam(teams,"kot"), findTeam(teams,"bkv"));
-	
+	Match(findTeam(teams,"ala"), findTeam(teams,"ong"));
+	Match(findTeam(teams,"pcl"), findTeam(teams,"kot"));
+	Match(findTeam(teams,"bkv"), findTeam(teams,"lit"));
+	Match(findTeam(teams,"ppa"), findTeam(teams,"nle"));
+
 	// simulateSeason(teams);
-	
+
     return 0;
 }
