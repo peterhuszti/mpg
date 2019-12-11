@@ -99,17 +99,26 @@ void Team::calcGoal_p() {
         }
     }
 
-//    for(int i=0; i<n; ++i) {
-//        for(int j=0; j<n; ++j) {
-//            std::cout << p[i][j] << "     ";
-//        }
-//        std::cout << std::endl;
-//    }
+    /*for(int i=0; i<n; ++i) {
+        for(int j=0; j<n; ++j) {
+            std::cout << p[i][j] << "     ";
+        }
+        std::cout << std::endl;
+    }*/
 
+	double sum = 0;
     for(int j=0; j<n; ++j) {
         goal_p.push_back(p[j][n-1]);
+		sum += p[j][n-1];
     }
 
+	double diff = (1 - sum) / goal_p.size();
+	std::cout << "diff  ";
+	std::cout << diff << std::endl;
+	for(int i=0; i<goal_p.size(); ++i) {
+		goal_p[i] += diff;
+	}
+	
 	calcPosAvg();
 }
 
