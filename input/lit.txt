@@ -1,18 +1,21 @@
-1	Hennessey Wayne	G	15	5.50/12{5.44/32}	1.06{0.91}	0	5	4	4	5	5	5.5	6	6	4	Crystal Palace	Man United	22.48%						
-0	Rui Patrício	G	16	5.50/12	0.82	0	5	5	4.5	4.5	6	7	6	6		Wolverhampton	Huddersfield	67.63%						
-0	Paterson Callum	D	19	5.35/10(5.58/6)	0.98(1.10)	3	7*	4	5.5*	7*	5	5		(5.5)		Cardiff	Everton	29.30%						
-1	Duffy Shane	D	20	5.58/12{5.08/37}	1.17{1.21}	2	5.5	4	6.5	7	5.5	4.5	5	7.5*	4	Brighton	Leicester	50.43%						
-0	Tarkowski James	D	11	4.68/11{4.98/30}	1.43{1.08}	2		2	3	3	5.5	5	6	5.5		Burnley	Newcastle	33.00%						
-0	Walker Kyle	D	23	5.75/10(5.67/3){5.50/31}	0.56(0.47){0.82}	1	6	6	5		5.5	5.5	5.5	6	6/5	Man City	West Ham	86.45%						
-2	van Aanholt Patrick	D	17	5.00/12{5.28/32}	0.89{1.03}	1{6}	4	4.5	5	4.5	5	6*	5	5	5*	Crystal Palace	Man United	22.48%						
-3	Davies Ben	D	10	5.00/9(5.30/5){5.34/29}	0.67(0.51){0.80}	0	6	5.5	4.5	5.5	-5				4	Tottenham	Chelsea	59.66%						
-0	Felipe Anderson	M	19	5.63/12	1.31	4	6*	8**	5.5	3.5	5	8*	5	6		West Ham	Man City	13.55%						
-0	Lucas Moura	M	19	5.00/12	1.21{1.04}	4	4	6.5*	3.5	5	5.5	4.5	4	4		Tottenham	Chelsea	59.66%						
-0	Milner James	M	23	5.75/12{5.47/34}	0.88{0.83}	2	-5	7*	(4.5)	5	4.5	5.5	(5.5)	6	-5	Liverpool	Watford	80.65%						
-0	Rúben Neves	M	20	5.75/12	0.95	2	6	5.5*	5.5	4	6.5	7	6	5		Wolverhampton	Huddersfield	67.63%						
-2	Mkhitaryan Henrikh	M	14	5.11/9(5.25/2){5.29/24}	0.87(0.75){1.24}	2{4}	(6*)	4.5		5	5.5			-5		Arsenal	Bournemouth	64.40%						
-1	João Moutinho	M	18	5.33/12{5.51/35}	0.92{1.10}	1{2}	5	4.5	6	4.5	6	6	6*	4.5		Wolverhampton	Huddersfield	67.63%						
-0	Richarlison	F	26	5.70/10(5.64/7){4.67/36}	1.25(0.99){1.17}	6	4.5	7.5**	6	5	6*	6	4.5			Everton	Cardiff	70.70%						
-0	Kane Harry	F	44	5.33/12{5.66/38}	1.12{1.37}	6{27}	5	7*	3.5	5	5	7**	6.5*	4	-4	Tottenham	Chelsea	59.66%						
-0	Murray Glenn	F	25	4.96/12{4.58/37}	1.38{1.27}	6{14}	4	4	6.5*	4.5	6.5*	(4.5)	2.5	5.5*	2	Brighton	Leicester	50.43%						
-1	Arnautovic Marko	F	29	5.60/10(6.50/2){5.76/33}	1.43(1.50){1.56}	5{16}	5	8*		5.5	4.5	6.5*		7*	(5)/3	West Ham	Man City	13.55%	
+1 Ramsdale Aaron	G	19	5.47/15	1.04	0	4.5	4	6	6	7	6.5	5.5	4.5		Bournemouth	Chelsea	26.30%
+0 Rui Patrício	G	16	5.47/15{5.41/37}	1.28{1.00}	0	7	6	5	5.5	5.5	4.5	6	6.5	5.5	Wolverhampton	Tottenham	66.36%
+1 Cresswell Aaron	D	10	4.75/10(4.50/6){4.85/23}	1.40(1.32){1.04}	3	4	7*	3.5	3.5	3.5	5.5		5	6	West Ham	Arsenal	44.55%
+0 Clark Ciaran	D	13	5.44/8{5.50/11}	0.88{0.93}	2{3}	6	5.5	4	7*	6*	5	4.5	5.5		Newcastle	Burnley	60.08%
+0 Dunk Lewis	D	20	5.36/14(6.00/2){5.11/36}	1.36(0.50){1.25}	2	5.5	6.5*		4*	7	5	4	7.5	6	Brighton	Crystal Palace	39.92%
+-1 van Aanholt Patrick	D	16	5.00/15{5.19/36}	1.08{1.03}	2{4}	5	6	4.5	4	4.5	4.5	5	7*	4.5	Crystal Palace	Brighton	67.50%
+0 Söyüncü Çaglar	D	19	5.70/15{5.59/17}	0.83{0.84}	1	6	5	6.5	6	7.5*	6	5.5	5.5		Leicester	Norwich	74.03%
+2 Ahmed El Mohamady	D	6	5.14/7(6.00)	0.99	0	6				(5)					Aston Villa	Sheffield	46.41%
+0 Pulisic Christian	M	32	5.63/12(5.88/8)	1.32(1.47)	5	5.5	4	4	7*	7*	8.5***	(5)	(6)		Chelsea	Bournemouth	60.49%
+1 Mahrez Riyad	M	13	5.95/11(5.83/3){5.56/24}	1.60(0.94){1.39}	4{6}	(6.5*)	4.5	6.5*					4		Man. City	Arsenal	81.27%
+0 McGinn John	M	23	6.27/15	0.91	3	6	6	5.5	5.5	7	4	7	7		Aston Villa	Sheffield	46.41%
+0 Grealish Jack	M	21	6.27/13(6.33/3)	0.97(1.03)	3	5	6.5*	7.5			4.5	8*	7.5*		Aston Villa	Sheffield	46.41%
+0 Tielemans Youri	M	26	5.77/15{5.60/34}	1.00{1.02}	3{7}	4.5	4.5	6	7	6	8*	5.5*	4.5		Leicester	Norwich	74.03%
+2 Trézéguet	M	14	5.19/13(5.75/2)	0.99(0.25)	3	6*	(5.5)		6.5*	6*	5	(5.5)	(5)		Aston Villa	Sheffield	46.41%
+0 Wilfred Ndidi	M	26	6.36/14(6.42/12){5.81/37}	0.72(0.76){0.98}	2{3}	5.5	6.5	6	7	7	7.5	5.5	6		Leicester	Norwich	74.03%
+-1 Fraser Ryan	M	20	5.57/14(5.50/8){5.46/37}	0.59(0.50){1.14}	1{4}	(5)	4.5	6	5.5	5.5	6	6	(5.5)	3.5/4.5	Bournemouth	Chelsea	26.30%
+0 Vardy Jamie	F	40	5.97/15{5.65/37}	1.61{1.51}	14{27}	5.5*	6*	7*	7.5*	6.5*	9***	6*	3.5		Leicester	Norwich	74.03%
+0 Danny Ings	F	23	5.47/15{5.20/28}	0.94{1.10}	8{11}	6.5*	7*	6*	6*	4.5	4.5	6*	6*	3	Southampton	West Ham	47.84%
+1 Callum Wilson	F	27	5.13/15{5.12/30}	1.19{1.48}	5{11}	3.5	4	4.5	4	5	4	4	5		Bournemouth	Chelsea	26.30%
+2 Wesley	F	18	4.73/15	1.36	4	3.5	5	5	4.5	3	3	4	8**		Aston Villa	Sheffield	46.41%
+-1 King Joshua	F	18	5.29/12{5.00/35}	1.05{1.28}	3{10}				4	6*	5	(4.5)	5.5	3/3.5	Bournemouth	Chelsea	26.30%

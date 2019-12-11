@@ -1,19 +1,18 @@
-0	Arrizabalaga Kepa	G	20	5.47/16{5.36/32}	0.62{1.02}	0	6	4	6.5	6	5.5	5	5.5	5		Chelsea	Brighton	66.87%
-1	Grant Lee	G	1	0.00	0.00	0										Man United	Liverpool	28.59%
-0	Mustafi Shkodran	D	21	5.38/16{5.29/34}	0.78{1.07}	2{4}	5	5.5*	6	5	5	6	4	5.5	3	Arsenal	Southampton	86.39%
-0	Digne Lucas	D	18	5.43/14(5.46/13){5.32/22}	0.73(0.75){0.70}	1	6.5*	4.5	7	5	6	5	4.5	5.5		Everton	Man City	18.64%
--1	Vertonghen Jan	D	16	5.39/9(6.00){5.64/29}	1.29{1.14}	1	6		2.5						6	Tottenham	Burnley	86.79%
-0	Smalling Chris	D	14	5.04/13(5.50/2){5.40/31}	0.82(0.50){0.87}	1{4}	6	5		5.5	4.5	5.5	4.5	4.5	6	Man United	Liverpool	28.59%
-0	van Dijk Virgil	D	28	6.03/16{5.82/31}	0.72{0.83}	0	6	7.5	6	7	6.5	7	6	6	4	Liverpool	Man United	71.41%
-1	Chilwell Ben	D	12	4.72/16{4.73/32}	1.03{1.22}	0	4	4.5	4.5	5	4.5	6.5	4.5	3.5	3/4	Leicester	Crystal Palace	63.21%
-0	Pogba Paul	M	21	4.86/14{5.30/33}	0.97{1.13}	3{6}		-5	4	4		5	6*	5		Man United	Liverpool	28.59%
-0	Kanté N'Golo	M	31	5.41/16{5.55/37}	0.81{0.98}	2	7*	4	6	4.5	4	5	6.5	5.5	7/6	Chelsea	Brighton	66.87%
-1	Mata Juan	M	14	5.27/11(8.00){5.43/28}	1.16{1.09}	2{4}	8*			4.5	-5	5	5.5	4.5	5	Man United	Liverpool	28.59%
-0	Lingard Jesse	M	13	4.75/12(4.86/7){5.12/33}	0.48(0.44){0.92}	1{6}	4.5	5.5*	-5	5	4	-5	-5		-5	Man United	Liverpool	28.59%
-2	Kovacic Mateo	M	13	5.46/14(5.33/6){5.40/31}	0.61(0.55){0.70}	0	6	-5	5	4.5	6	(5.5)		5		Chelsea	Brighton	66.87%
-0	Eriksen Christian	M	22	5.27/13(5.88/4){5.84/34}	1.07(1.52){1.12}	0{7}	-4	6.5	5	8		-5	(4.5)	(4.5)	6	Tottenham	Burnley	86.79%
-0	Mitrovic Aleksandar	F	20	5.09/16	1.56	7	3.5	5.5	4	8**	4	4	4	5		Fulham	West Ham	23.09%
-0	Sané Leroy	F	33	5.86/14(6.17/6){5.84/31}	1.22(1.43){1.23}	6{9}	4	6.5*	7	8**	(4.5)	7*		7*	7*	Man City	Everton	81.36%
-3	King Joshua	F	16	4.85/13(4.63/4){4.91/32}	1.32(1.08){1.20}	5{11}	3	5	4.5	6*				4		Bournemouth	Wolverhampton	48.13%
-1	Rashford Marcus	F	18	4.92/13(5.15/10){4.69/32}	1.22(1.29){1.05}	3{6}	7*	5	6.5	-5	3.5	(6*)	4	5	7**	Man United	Liverpool	28.59%
-2	Willian	F	28	5.30/15(4.25/2){5.53/35}	1.24(1.75){1.29}	2{7}	6	2.5		4.5	3.5	5.5	7*	6	(5)/7*	Chelsea	Brighton	66.87%
+1 Krul Tim	G	14	5.73/13(6.00/7)	1.34(1.54)	0	5	5.5	8	4	5	8.5	6			Norwich	Leicester	16.00%
+0 Dubravka Martin	G	16	5.63/15{5.51/38}	1.30{1.10}	0	8	7	6	5.5	6	4	7	6.5	5.5	Newcastle	Burnley	60.08%
+2 Chilwell Ben	D	17	5.58/12{5.15/33}	1.08{1.00}	1		5	7	6	5.5	8*	4.5	4		Leicester	Norwich	74.03%
+0 Lovren Dejan	D	11	5.93/7(5.92/6){5.75/16}	0.49(0.53){0.95}	0{1}	7	5.5	6	5.5	5.5	6		6		Liverpool	Watford	94.53%
+3 Boly Willy	D	13	5.69/8{5.45/29}	0.90{0.93}	0{3}							4.5	7	5	Wolverhampton	Tottenham	66.36%
+0 Maguire Harry	D	22	5.30/15{5.27/35}	0.79{0.91}	0{1}	5.5	4	4.5	5	5	6	5.5	5.5		Man. United	Everton	77.81%
+1 Angeliño	D	10	5.00/5	0.32	0	5			4.5	5.5	(5)				Man. City	Arsenal	81.27%
+0 Sánchez Davinson	D	11	4.91/11(4.93/7){4.94/26}	0.60(0.49){0.91}	0{1}	5.5	4.5	5	5	5	5.5	4			Tottenham	Wolverhampton	39.51%
+0 Wijnaldum Georginio	M	26	5.77/15{5.58/36}	0.68{0.85}	2{4}	7*	5.5	5.5	7	5	5	5.5	5	6/7*	Liverpool	Watford	94.53%
+0 McTominay Scott	M	17	5.46/13(6.00){5.29/24}	0.80{0.75}	2{4}	6			5.5	4.5	6.5*	5	4.5		Man. United	Everton	77.81%
+0 Sissoko Moussa	M	16	5.23/15{5.31/34}	0.91{0.88}	1	4	7*	(4.5)	5	5.5	5	5	3	5.5/4.5	Tottenham	Wolverhampton	39.51%
+1 Dendoncker Leander	M	13	5.07/15{5.32/33}	1.12{1.11}	1{3}	7.5*	5.5	5.5	5.5	6	4.5	4	6	(5)	Wolverhampton	Tottenham	66.36%
+0 Kovacic Mateo	M	16	5.67/15{5.26/34}	0.91{0.88}	0	4.5	5	7	7	7.5	5.5	(6)	(5.5)		Chelsea	Bournemouth	60.49%
+2 Lingard Jesse	M	11	5.00/12(5.08/6){4.98/28}	0.50(0.34){0.80}	0{3}	5	(5)	(4.5)	(5.5)	(5)	(5.5)			4.5	Man. United	Everton	77.81%
+0 Abraham Tammy	F	38	5.68/14(7.00)	1.60	11	7*		4	6*	7*	5	5	7*		Chelsea	Bournemouth	60.49%
+1 Agüero Sergio	F	50	5.63/12{5.72/32}	1.31{1.23}	9{22}			4.5	4	6*	(4.5)		4	5	Man. City	Arsenal	81.27%
+0 Martial Anthony	F	19	5.44/9{5.17/24}	1.09	3{6}		5	4.5	7	4	6*	(4)		(4.5)	Man. United	Everton	77.81%
+0 Calvert-Lewin Dominic	F	12	4.50/13{4.74/35}	0.83(0.82){0.95}	3{7}	4	3.5	(5)	(4.5)	(4)	(6*)		4	6	Everton	Man. United	33.51%
